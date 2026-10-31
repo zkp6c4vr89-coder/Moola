@@ -1,0 +1,1 @@
+Scratch space for candidate strategy files during a review. The `.py` files here are git-ignored; the accepted version is copied into `src/moola/strategy.py`, and its backtest table goes into `reviews/YYYY-MM.md`.

@@ -1,0 +1,40 @@
+# Moola configuration. risk/backtest/review_gates are PROTECTED: reviews must not edit them.
+
+universe:
+  stocks: [SPY, QQQ, IWM, EFA, TLT, GLD, XLK, XLE, XLF, XLV]
+  crypto: [BTC/USD, ETH/USD]
+
+benchmarks:
+  stock: SPY
+  crypto: BTC/USD
+
+initial_cash: 100000          # Alpaca paper default; used for cumulative P&L
+
+risk:
+  max_position_weight: 0.25   # no single symbol above 25% of equity
+  max_crypto_weight: 0.30     # all crypto combined
+  max_orders_per_day: 10
+  min_trade_value: 50         # skip rebalances smaller than $50
+  kill_switch_drawdown: 0.25  # go to cash if equity falls 25% below its peak
+  peak_reset_date: null       # after a kill switch, a HUMAN sets this (YYYY-MM-DD) to resume trading
+
+data:
+  history_days: 420           # calendar days of bars fetched for the live run
+  stock_feed: sip             # free plan allows SIP data older than 15 minutes
+  news_lookback_hours: 24
+  fred_series: {vix: VIXCLS, us10y: DGS10, curve_2s10s: T10Y2Y}
+
+backtest:
+  data_start: 2017-01-01      # warm-up history starts here
+  start: 2018-01-01
+  train_end: 2022-12-31
+  validation_end: 2025-10-31
+  holdout_end: 2026-10-30     # holdout = day after validation_end .. holdout_end. Never tune on it.
+  cost_bps: 5                 # commission + slippage assumption per trade
+
+review_gates:
+  min_sharpe_improvement: 0.10   # on validation
+  max_drawdown_worsening: 0.02   # absolute, on validation
+  max_annual_turnover: 12.0      # x equity per year
+  max_new_params: 2
+  min_days_between_changes: 20   # trading days of live data
