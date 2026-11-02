@@ -1,0 +1,2 @@
+date,run_time_utc,equity,cash,cum_pnl,gross_exposure,crypto_exposure,bench_stock_close,bench_crypto_close,strategy_version,stock_session,n_orders,n_risk_flags,n_errors,daily_pnl
+2026-11-01,2026-11-02T00:56:13.954778+00:00,100073.15,84174.59,73.15,0.1589,0.1589,755.72,78233.257,v1,False,1,2,0,0.0

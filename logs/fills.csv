@@ -1,0 +1,2 @@
+order_id,symbol,side,filled_qty,filled_avg_price,filled_at,status
+48081749-3b69-44b6-b6af-b9f87cca95e2,BTC/USD,buy,0.204383051,77430.142579714,2026-11-01T00:15:34.527333+00:00,filled

@@ -1,0 +1,2 @@
+date,symbol,side,notional,close_all,decision_price,reason,strategy_version,order_id,status,error
+2026-11-01,BTC/USD,buy,215.53,False,78233.257,rebalance to 16.1%,v1,3a873bb3-bcda-4d41-a0e2-aa3fee25f155,pending_new,

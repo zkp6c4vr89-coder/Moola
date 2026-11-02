@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-01",
+  "run_time_utc": "2026-11-02T00:56:13.954778+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "bc469b6d21bea47065b5278eb7b0746762f562fc",
+  "stock_session": false,
+  "account": {
+    "equity": 100073.15,
+    "cash": 84174.59,
+    "last_equity": 100000.0,
+    "buying_power": 336698.36
+  },
+  "peak_equity": 100073.15,
+  "positions": [
+    {
+      "symbol": "BTC/USD",
+      "qty": 0.203872092,
+      "market_value": 15898.55735,
+      "avg_entry_price": 77430.14257985,
+      "current_price": 77983.0,
+      "unrealized_pl": 112.712198,
+      "unrealized_plpc": 0.00714
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 17.2,
+      "us10y": 4.98,
+      "curve_2s10s": 0.38
+    },
+    "crypto_fear_greed": 37,
+    "news": {
+      "SPY": {
+        "count": 1,
+        "sentiment": 0.382,
+        "headlines": [
+          {
+            "headline": "S&P 500, Dow Jones, and Nasdaq 100 Outlook: Top Drivers for US Stocks This Week",
+            "source": "benzinga",
+            "created_at": "2026-11-01T17:45:07Z",
+            "sentiment": 0.382
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "IWM": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "GLD": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLK": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLE": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLF": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLV": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "BTC/USD": {
+        "count": 1,
+        "sentiment": -0.67,
+        "headlines": [
+          {
+            "headline": "Binance Replaces 90% of Stolen Crypto After Record $6.3 Billion Hack as FBI Blames North Korea for Attack",
+            "source": "benzinga",
+            "created_at": "2026-11-01T02:01:52Z",
+            "sentiment": -0.67
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 1,
+        "sentiment": -0.67,
+        "headlines": [
+          {
+            "headline": "Binance Replaces 90% of Stolen Crypto After Record $6.3 Billion Hack as FBI Blames North Korea for Attack",
+            "source": "benzinga",
+            "created_at": "2026-11-01T02:01:52Z",
+            "sentiment": -0.67
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 103.37,
+      "GLD": 355.78,
+      "IWM": 279.33,
+      "QQQ": 690.49,
+      "SPY": 755.72,
+      "TLT": 81.84,
+      "XLE": 70.02,
+      "XLF": 56.51,
+      "XLK": 179.51,
+      "XLV": 184.87,
+      "BTC/USD": 78233.257,
+      "ETH/USD": 2272.3225
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 78233.257,
+      "momentum": 0.1,
+      "sma": 76412.306,
+      "above_sma": true,
+      "vol": 0.3546
+    },
+    "EFA": {
+      "close": 103.37,
+      "momentum": 0.0017,
+      "sma": 102.4262,
+      "above_sma": true,
+      "vol": 0.1094
+    },
+    "ETH/USD": {
+      "close": 2272.3225,
+      "momentum": 0.0925,
+      "sma": 2344.6692,
+      "above_sma": false,
+      "vol": 0.4046
+    },
+    "GLD": {
+      "close": 355.78,
+      "momentum": -0.1011,
+      "sma": 412.9201,
+      "above_sma": false,
+      "vol": 0.2356
+    },
+    "IWM": {
+      "close": 279.33,
+      "momentum": -0.0247,
+      "sma": 277.697,
+      "above_sma": true,
+      "vol": 0.1334
+    },
+    "QQQ": {
+      "close": 690.49,
+      "momentum": 0.0069,
+      "sma": 678.3749,
+      "above_sma": true,
+      "vol": 0.1773
+    },
+    "SPY": {
+      "close": 755.72,
+      "momentum": 0.0269,
+      "sma": 725.9774,
+      "above_sma": true,
+      "vol": 0.0995
+    },
+    "TLT": {
+      "close": 81.84,
+      "momentum": -0.0108,
+      "sma": 83.2265,
+      "above_sma": false,
+      "vol": 0.1081
+    },
+    "XLE": {
+      "close": 70.02,
+      "momentum": 0.2019,
+      "sma": 58.1512,
+      "above_sma": true,
+      "vol": 0.2111
+    },
+    "XLF": {
+      "close": 56.51,
+      "momentum": 0.0421,
+      "sma": 53.4068,
+      "above_sma": true,
+      "vol": 0.1261
+    },
+    "XLK": {
+      "close": 179.51,
+      "momentum": 0.0605,
+      "sma": 169.2362,
+      "above_sma": true,
+      "vol": 0.2374
+    },
+    "XLV": {
+      "close": 184.87,
+      "momentum": 0.214,
+      "sma": 157.6693,
+      "above_sma": true,
+      "vol": 0.1741
+    }
+  },
+  "rationale": {
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLV": "in: momentum rank 1, weight 32.8%",
+    "XLE": "in: momentum rank 2, weight 27.1%",
+    "BTC/USD": "in: momentum rank 3, weight 16.1%",
+    "XLK": "in: momentum rank 4, weight 24.1%",
+    "XLF": "out: momentum rank 5 > top_n 4",
+    "SPY": "out: momentum rank 6 > top_n 4",
+    "QQQ": "out: momentum rank 7 > top_n 4",
+    "EFA": "out: momentum rank 8 > top_n 4"
+  },
+  "raw_targets": {
+    "XLV": 0.3279137009563667,
+    "XLE": 0.2705101615989505,
+    "BTC/USD": 0.16102311972278294,
+    "XLK": 0.24055301772189983
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "XLE": 0.25,
+    "BTC/USD": 0.16102311972278294,
+    "XLK": 0.24055301772189983
+  },
+  "risk_flags": [
+    "capped XLV from 32.8% to 25%",
+    "capped XLE from 27.1% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "BTC/USD",
+      "side": "buy",
+      "notional": 215.53,
+      "close_all": false,
+      "decision_price": 78233.257,
+      "reason": "rebalance to 16.1%",
+      "strategy_version": "v1",
+      "order_id": "3a873bb3-bcda-4d41-a0e2-aa3fee25f155",
+      "status": "pending_new",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "48081749-3b69-44b6-b6af-b9f87cca95e2",
+      "symbol": "BTC/USD",
+      "side": "buy",
+      "filled_qty": 0.204383051,
+      "filled_avg_price": 77430.142579714,
+      "filled_at": "2026-11-01T00:15:34.527333+00:00",
+      "status": "filled"
+    }
+  ],
+  "errors": {}
+}
