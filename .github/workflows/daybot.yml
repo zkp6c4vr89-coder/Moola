@@ -1,0 +1,78 @@
+name: daybot
+
+# Two jobs per trading day (GitHub caps a job at 6 hours; the session is longer):
+#   morning   13:30 UTC -> waits for 09:45 ET, trades until 12:45 ET, flat at the handoff
+#   afternoon 16:40 UTC -> waits for 12:45 ET, trades until the close, then end-of-day bookkeeping
+# Both crons work in EST and EDT because the bot waits for the ET times itself.
+# Scheduled runs are DRY RUNS until the repo variable DAYBOT_TRADE is set to "true"
+# (Settings -> Secrets and variables -> Actions -> Variables).
+on:
+  schedule:
+    - cron: "30 13 * * 1-5"
+    - cron: "40 16 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      session:
+        type: choice
+        options: [morning, afternoon]
+        default: afternoon
+      dry_run:
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daybot          # the afternoon job queues behind the morning job, never overlaps
+  cancel-in-progress: false
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      DAYBOT_ALPACA_API_KEY: ${{ secrets.DAYBOT_ALPACA_API_KEY }}
+      DAYBOT_ALPACA_SECRET_KEY: ${{ secrets.DAYBOT_ALPACA_SECRET_KEY }}
+      LIVE: "false"      # GitHub never trades real money
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -e ".[dev]"
+
+      - name: Tests (no trading if anything is broken)
+        run: pytest -q tests/test_daybot.py
+
+      - name: Run session
+        env:
+          MANUAL_DRY_RUN: ${{ inputs.dry_run }}
+          TRADE_ENABLED: ${{ vars.DAYBOT_TRADE }}
+        run: |
+          SESSION="${{ inputs.session }}"
+          if [ -z "$SESSION" ]; then
+            [ "${{ github.event.schedule }}" = "30 13 * * 1-5" ] && SESSION=morning || SESSION=afternoon
+          fi
+          DRY="--dry-run"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            [ "$MANUAL_DRY_RUN" = "false" ] && DRY=""
+          else
+            [ "$TRADE_ENABLED" = "true" ] && DRY=""
+          fi
+          echo "session=$SESSION dry_run=${DRY:-no}"
+          python -m daybot.main run --session "$SESSION" $DRY
+
+      - name: Commit logs and state
+        if: always()
+        run: |
+          git config user.name "moola-bot"
+          git config user.email "moola-bot@users.noreply.github.com"
+          git add logs/daybot
+          git diff --cached --quiet && exit 0
+          git commit -m "daybot: $(date -u +%Y-%m-%d) session log"
+          git pull --rebase
+          git push

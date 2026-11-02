@@ -26,6 +26,12 @@ If an improvement needs a protected file changed (a new data source, for example
 4. Prefer fewer parameters. A change must pass every gate in `config.yaml → review_gates`.
 5. Leave at least `min_days_between_changes` live trading days between strategy versions, so each version gets a real live test.
 
+## daybot (separate experiment)
+- `src/daybot/` is an intraday $10-base-unit trader. It runs on its **own** paper account, with the `DAYBOT_*` keys. See `src/daybot/README.md`.
+- The Moola review rules above don't apply to it.
+- **Never set `LIVE=true`**, and never touch the `DAYBOT_*` keys.
+- Always run `python -m daybot.backtest` (walk-forward) before changing `src/daybot/strategy.py` or `config.py`.
+
 ## Commands
 ```bash
 source .venv/bin/activate
