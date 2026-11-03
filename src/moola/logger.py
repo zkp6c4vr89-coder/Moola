@@ -14,7 +14,12 @@ DAILY = LOGS / "daily"
 
 
 def _read(path: Path) -> pd.DataFrame:
-    return pd.read_csv(path) if path.exists() and path.stat().st_size > 0 else pd.DataFrame()
+    if not path.exists() or path.stat().st_size == 0:
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(path)
+    except pd.errors.EmptyDataError:  # a file with no header, e.g. written on a day with zero positions
+        return pd.DataFrame()
 
 
 def _upsert(path: Path, rows: list[dict], day: str, key: list[str] | None = None) -> None:
@@ -24,6 +29,8 @@ def _upsert(path: Path, rows: list[dict], day: str, key: list[str] | None = None
         df = df[df["date"].astype(str) != day]
     new = pd.DataFrame(rows)
     out = pd.concat([df, new], ignore_index=True) if not df.empty else new
+    if len(out.columns) == 0:
+        return  # nothing logged yet and nothing to log (e.g. first day, no positions)
     if key:
         out = out.drop_duplicates(subset=key, keep="last")
     path.parent.mkdir(parents=True, exist_ok=True)

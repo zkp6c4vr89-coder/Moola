@@ -233,6 +233,14 @@ class Trader:
         s["open_trades"] = {k: v for k, v in s["open_trades"].items() if v.get("date") == self.today.isoformat()}
 
         start, end = self.window()
+        if now_et() >= end:
+            log.warning("started at %s ET, after this %s window ended at %s ET (scheduler delay); nothing to trade",
+                        now_et().strftime("%H:%M"), self.session, end.strftime("%H:%M"))
+            if self.session in ("afternoon", "full") and not self.dry_run:
+                if self.broker.positions():
+                    self.flatten("eodflat")
+                self.eod()
+            return 0
         if now_et() < start:
             log.info("waiting until %s", start.time())
             sleep_until(start)

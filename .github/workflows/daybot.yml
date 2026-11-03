@@ -1,15 +1,12 @@
 name: daybot
 
 # Two jobs per trading day (GitHub caps a job at 6 hours; the session is longer):
-#   morning   13:30 UTC -> waits for 09:45 ET, trades until 12:45 ET, flat at the handoff
-#   afternoon 16:40 UTC -> waits for 12:45 ET, trades until the close, then end-of-day bookkeeping
-# Both crons work in EST and EDT because the bot waits for the ET times itself.
-# Scheduled runs are DRY RUNS until the repo variable DAYBOT_TRADE is set to "true"
-# (Settings -> Secrets and variables -> Actions -> Variables).
+#   morning   09:35 ET -> waits for 09:45 ET, trades until 12:45 ET, flat at the handoff
+#   afternoon 12:35 ET -> waits for 12:45 ET, trades until the close, then end-of-day bookkeeping
+# Started on time by the Cloudflare Worker in scheduler/ (GitHub's own cron ran 9 hours late).
+# dry_run=auto (what the scheduler sends) means: dry run until the repo variable DAYBOT_TRADE
+# is "true" (Settings -> Secrets and variables -> Actions -> Variables).
 on:
-  schedule:
-    - cron: "30 13 * * 1-5"
-    - cron: "40 16 * * 1-5"
   workflow_dispatch:
     inputs:
       session:
@@ -17,8 +14,9 @@ on:
         options: [morning, afternoon]
         default: afternoon
       dry_run:
-        type: boolean
-        default: true
+        type: choice
+        options: ["true", "false", "auto"]
+        default: "true"
 
 permissions:
   contents: write
@@ -54,15 +52,9 @@ jobs:
           TRADE_ENABLED: ${{ vars.DAYBOT_TRADE }}
         run: |
           SESSION="${{ inputs.session }}"
-          if [ -z "$SESSION" ]; then
-            [ "${{ github.event.schedule }}" = "30 13 * * 1-5" ] && SESSION=morning || SESSION=afternoon
-          fi
           DRY="--dry-run"
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            [ "$MANUAL_DRY_RUN" = "false" ] && DRY=""
-          else
-            [ "$TRADE_ENABLED" = "true" ] && DRY=""
-          fi
+          [ "$MANUAL_DRY_RUN" = "false" ] && DRY=""
+          [ "$MANUAL_DRY_RUN" = "auto" ] && [ "$TRADE_ENABLED" = "true" ] && DRY=""
           echo "session=$SESSION dry_run=${DRY:-no}"
           python -m daybot.main run --session "$SESSION" $DRY
 
