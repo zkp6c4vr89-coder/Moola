@@ -1,0 +1,505 @@
+{
+  "date": "2026-11-02",
+  "run_time_utc": "2026-11-03T02:58:48.802351+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "73f9d837e91d84b8b07d442e7a3c880a126f6f22",
+  "stock_session": true,
+  "account": {
+    "equity": 99813.26,
+    "cash": 83963.19,
+    "last_equity": 100000.0,
+    "buying_power": 335852.76
+  },
+  "peak_equity": 100073.15,
+  "positions": [
+    {
+      "symbol": "BTC/USD",
+      "qty": 0.20657401,
+      "market_value": 15850.072611,
+      "avg_entry_price": 77438.194435111,
+      "current_price": 76728.3,
+      "unrealized_pl": -146.645741,
+      "unrealized_plpc": -0.00917
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 19.42,
+      "us10y": 4.94,
+      "curve_2s10s": 0.32
+    },
+    "crypto_fear_greed": 26,
+    "news": {
+      "SPY": {
+        "count": 31,
+        "sentiment": 0.012,
+        "headlines": [
+          {
+            "headline": "\"U.S. Strikes Iran\u2019s Qeshm Island As Trump Talks Down War Risks; Trump Told Reporters Monday \u2018We Haven\u2019t Been Doing Any Fighting For Months\u2019\" - WSJ Exclusive",
+            "source": "benzinga",
+            "created_at": "2026-11-03T02:53:42Z",
+            "sentiment": -0.859
+          },
+          {
+            "headline": "'US to hold trilateral talks with Ukraine, Russia in Abu Dhabi next week-US official'- Reuters",
+            "source": "benzinga",
+            "created_at": "2026-11-02T23:07:18Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "'US Said to Plan Fresh NATO Push for Ukraine Arms Deliveries'- Bloomberg",
+            "source": "benzinga",
+            "created_at": "2026-11-02T22:26:51Z",
+            "sentiment": 0.318
+          },
+          {
+            "headline": "Bitcoin, Gold Have \u2018Blown Their Tops,\u2019 Bloomberg's McGlone Warns",
+            "source": "benzinga",
+            "created_at": "2026-11-02T20:30:10Z",
+            "sentiment": -0.527
+          },
+          {
+            "headline": "U.S. VP JD Vance On Iran, Says We've Made Some Progress, Will See If Can Make Some More; Have Not Set Deadlines To Resume Strikes",
+            "source": "benzinga",
+            "created_at": "2026-11-02T20:27:24Z",
+            "sentiment": 0.077
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 8,
+        "sentiment": 0.358,
+        "headlines": [
+          {
+            "headline": "EXCLUSIVE: AI Bubble Risk Is Low, but SMH Faces a Bigger Threat Than QQQ, Expert Warns",
+            "source": "benzinga",
+            "created_at": "2026-11-02T19:15:11Z",
+            "sentiment": -0.972
+          },
+          {
+            "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-02T17:32:47Z",
+            "sentiment": 0.743
+          },
+          {
+            "headline": "Apple\u2014A Safe Haven From The AI Storm?",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:33:39Z",
+            "sentiment": 0.599
+          },
+          {
+            "headline": "What If China\u2019s AI Crash Was A Feature, Not A Bug?",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:09:10Z",
+            "sentiment": 0.908
+          },
+          {
+            "headline": "Growth And Cyclical Sectors Lead Monday Trading",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:00:25Z",
+            "sentiment": 0.649
+          }
+        ]
+      },
+      "IWM": {
+        "count": 2,
+        "sentiment": 0.696,
+        "headlines": [
+          {
+            "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-02T17:32:47Z",
+            "sentiment": 0.743
+          },
+          {
+            "headline": "Growth And Cyclical Sectors Lead Monday Trading",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:00:25Z",
+            "sentiment": 0.649
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "GLD": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLK": {
+        "count": 2,
+        "sentiment": 0.643,
+        "headlines": [
+          {
+            "headline": "From Tech Stocks to Staples: October Delivers Wall Street's Biggest Sector Rotation Since Dot-Com Bubble Burst",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:09:18Z",
+            "sentiment": 0.637
+          },
+          {
+            "headline": "Growth And Cyclical Sectors Lead Monday Trading",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:00:25Z",
+            "sentiment": 0.649
+          }
+        ]
+      },
+      "XLE": {
+        "count": 5,
+        "sentiment": 0.323,
+        "headlines": [
+          {
+            "headline": "Wall Street\u2019s Most Bullish Crude Analyst Calls the End of the Run: \u2018Time to Take Prompt Oil Profits\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-02T21:30:07Z",
+            "sentiment": 0.006
+          },
+          {
+            "headline": "Homebuilders, Miners and Regional Banks Soar as Oil Drops 8%: Has the Hormuz Peace Trade Begun?",
+            "source": "benzinga",
+            "created_at": "2026-11-02T20:59:01Z",
+            "sentiment": 0.318
+          },
+          {
+            "headline": "Dow Rises 1%, Oil Sinks 7% on Iran Peace Hopes: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-02T17:32:47Z",
+            "sentiment": 0.743
+          },
+          {
+            "headline": "Growth And Cyclical Sectors Lead Monday Trading",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:00:25Z",
+            "sentiment": 0.649
+          },
+          {
+            "headline": "\u2018Old Economy\u2019 Comes Back As Conflict and AI Spark a Global Resource Crunch",
+            "source": "benzinga",
+            "created_at": "2026-11-02T10:59:55Z",
+            "sentiment": -0.103
+          }
+        ]
+      },
+      "XLF": {
+        "count": 2,
+        "sentiment": 0.637,
+        "headlines": [
+          {
+            "headline": "Billionaire Investor Bets on Ares Management as It Eyes AI Data Center, Power Financing",
+            "source": "benzinga",
+            "created_at": "2026-11-02T19:05:10Z",
+            "sentiment": 0.625
+          },
+          {
+            "headline": "Growth And Cyclical Sectors Lead Monday Trading",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:00:25Z",
+            "sentiment": 0.649
+          }
+        ]
+      },
+      "XLV": {
+        "count": 1,
+        "sentiment": 0.649,
+        "headlines": [
+          {
+            "headline": "Growth And Cyclical Sectors Lead Monday Trading",
+            "source": "benzinga",
+            "created_at": "2026-11-02T16:00:25Z",
+            "sentiment": 0.649
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 22,
+        "sentiment": 0.049,
+        "headlines": [
+          {
+            "headline": "\u2018Absurd Rhetoric\u2019: Kim Jong Un\u2019s Sister Dismisses $6.3 Billion Binance Hack Accusation Against North Korea, Calls It a \u2018Grave Political Provocation\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-03T02:56:06Z",
+            "sentiment": -0.25
+          },
+          {
+            "headline": "Cathie Wood Sells $2.3 Million Of Peter Thiel-Backed Bullish Shares, Ark Adds Crypto Names Coinbase, Circle, Robinhood",
+            "source": "benzinga",
+            "created_at": "2026-11-03T02:18:17Z",
+            "sentiment": 0.527
+          },
+          {
+            "headline": "Bitcoin, Ethereum, XRP, Dogecoin Extend Decline: Analyst Dismisses Midterm 'Fear,' Says Even if Democrats Win, 'Nothing Big' Likely to Happen",
+            "source": "benzinga",
+            "created_at": "2026-11-03T01:50:23Z",
+            "sentiment": -0.026
+          },
+          {
+            "headline": "Bitcoin Falls Below $77,000, Ethereum, XRP, Dogecoin Flat Ahead of Midterms",
+            "source": "benzinga",
+            "created_at": "2026-11-02T20:46:00Z",
+            "sentiment": -0.494
+          },
+          {
+            "headline": "Bitcoin, Gold Have \u2018Blown Their Tops,\u2019 Bloomberg's McGlone Warns",
+            "source": "benzinga",
+            "created_at": "2026-11-02T20:30:10Z",
+            "sentiment": -0.527
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 6,
+        "sentiment": -0.056,
+        "headlines": [
+          {
+            "headline": "Bitcoin, Ethereum, XRP, Dogecoin Extend Decline: Analyst Dismisses Midterm 'Fear,' Says Even if Democrats Win, 'Nothing Big' Likely to Happen",
+            "source": "benzinga",
+            "created_at": "2026-11-03T01:50:23Z",
+            "sentiment": -0.026
+          },
+          {
+            "headline": "Bitcoin Falls Below $77,000, Ethereum, XRP, Dogecoin Flat Ahead of Midterms",
+            "source": "benzinga",
+            "created_at": "2026-11-02T20:46:00Z",
+            "sentiment": -0.494
+          },
+          {
+            "headline": "Peter Schiff Says Trump Is Toying With Oil Markets: \u2018Expect Another Reversal\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-02T19:00:07Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Bitmine Adds 8,573 ETH as Tom Lee Cites 6 Bullish Factors for ETH",
+            "source": "benzinga",
+            "created_at": "2026-11-02T14:37:29Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Binance Announces, On Social Media,  It Has Completed New Round Of Security Upgrades; Working To Resume Withdrawals For Additional Networks And Assets With The Next Phase Planned For Tuesday",
+            "source": "benzinga",
+            "created_at": "2026-11-02T12:57:49Z",
+            "sentiment": 0.477
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 103.7,
+      "GLD": 361.65,
+      "IWM": 279.14,
+      "QQQ": 681.09,
+      "SPY": 752.1,
+      "TLT": 81.73,
+      "XLE": 67.25,
+      "XLF": 57.56,
+      "XLK": 174.22,
+      "XLV": 184.6,
+      "BTC/USD": 76676.23,
+      "ETH/USD": 2249.7
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 76676.23,
+      "momentum": 0.0692,
+      "sma": 76536.1003,
+      "above_sma": true,
+      "vol": 0.3358
+    },
+    "EFA": {
+      "close": 103.7,
+      "momentum": 0.0062,
+      "sma": 102.4562,
+      "above_sma": true,
+      "vol": 0.1071
+    },
+    "ETH/USD": {
+      "close": 2249.7,
+      "momentum": 0.0808,
+      "sma": 2348.4382,
+      "above_sma": false,
+      "vol": 0.3869
+    },
+    "GLD": {
+      "close": 361.65,
+      "momentum": -0.0807,
+      "sma": 412.6117,
+      "above_sma": false,
+      "vol": 0.2334
+    },
+    "IWM": {
+      "close": 279.14,
+      "momentum": -0.0314,
+      "sma": 277.7742,
+      "above_sma": true,
+      "vol": 0.1311
+    },
+    "QQQ": {
+      "close": 681.09,
+      "momentum": -0.0219,
+      "sma": 678.682,
+      "above_sma": true,
+      "vol": 0.1774
+    },
+    "SPY": {
+      "close": 752.1,
+      "momentum": 0.0151,
+      "sma": 726.3037,
+      "above_sma": true,
+      "vol": 0.0991
+    },
+    "TLT": {
+      "close": 81.73,
+      "momentum": -0.0081,
+      "sma": 82.8614,
+      "above_sma": false,
+      "vol": 0.1082
+    },
+    "XLE": {
+      "close": 67.25,
+      "momentum": 0.1517,
+      "sma": 58.2541,
+      "above_sma": true,
+      "vol": 0.2271
+    },
+    "XLF": {
+      "close": 57.56,
+      "momentum": 0.0608,
+      "sma": 53.426,
+      "above_sma": true,
+      "vol": 0.1315
+    },
+    "XLK": {
+      "close": 174.22,
+      "momentum": 0.0054,
+      "sma": 169.3826,
+      "above_sma": true,
+      "vol": 0.2428
+    },
+    "XLV": {
+      "close": 184.6,
+      "momentum": 0.2146,
+      "sma": 157.8171,
+      "above_sma": true,
+      "vol": 0.1739
+    }
+  },
+  "rationale": {
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: negative momentum",
+    "QQQ": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLV": "in: momentum rank 1, weight 27.7%",
+    "XLE": "in: momentum rank 2, weight 21.2%",
+    "BTC/USD": "in: momentum rank 3, weight 14.4%",
+    "XLF": "in: momentum rank 4, weight 36.7%",
+    "SPY": "out: momentum rank 5 > top_n 4",
+    "EFA": "out: momentum rank 6 > top_n 4",
+    "XLK": "out: momentum rank 7 > top_n 4"
+  },
+  "raw_targets": {
+    "XLV": 0.27730116181515585,
+    "XLE": 0.21237010015794164,
+    "BTC/USD": 0.14362962526019496,
+    "XLF": 0.3666991127667075
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "XLE": 0.21237010015794164,
+    "BTC/USD": 0.14362962526019496,
+    "XLF": 0.25
+  },
+  "risk_flags": [
+    "capped XLV from 27.7% to 25%",
+    "capped XLF from 36.7% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "BTC/USD",
+      "side": "sell",
+      "notional": 1513.93,
+      "close_all": false,
+      "decision_price": 76676.23,
+      "reason": "rebalance to 14.4%",
+      "strategy_version": "v1",
+      "order_id": "b4ad5a2b-a4c1-4e7f-ac90-2d54713b4a1e",
+      "status": "pending_new",
+      "error": null
+    },
+    {
+      "symbol": "XLF",
+      "side": "buy",
+      "notional": 24953.31,
+      "close_all": false,
+      "decision_price": 57.56,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "bec7ce5f-e4c1-4ff4-a82c-dd60e9ab5f3d",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLV",
+      "side": "buy",
+      "notional": 24953.31,
+      "close_all": false,
+      "decision_price": 184.6,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "41bdabcb-8af9-43cf-954d-25bd0913a3e6",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLE",
+      "side": "buy",
+      "notional": 21197.35,
+      "close_all": false,
+      "decision_price": 67.25,
+      "reason": "rebalance to 21.2%",
+      "strategy_version": "v1",
+      "order_id": "b9928a6e-c854-468c-9081-54138ba00dbe",
+      "status": "accepted",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "3a873bb3-bcda-4d41-a0e2-aa3fee25f155",
+      "symbol": "BTC/USD",
+      "side": "buy",
+      "filled_qty": 0.002708691,
+      "filled_avg_price": 78045.743787622,
+      "filled_at": "2026-11-02T00:56:16.598292+00:00",
+      "status": "filled",
+      "decision_price": 78233.257,
+      "slippage_bps": -24.0
+    }
+  ],
+  "errors": {}
+}
