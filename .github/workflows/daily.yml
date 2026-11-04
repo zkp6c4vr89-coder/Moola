@@ -43,10 +43,10 @@ jobs:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
         run: |
-          TODAY=$(TZ=America/New_York date +%F)
-          if [ "${{ github.event_name }}" = "schedule" ] && tail -n 1 logs/equity.csv 2>/dev/null | grep -q "^$TODAY,"; then
-            echo "Backup cron: today's run ($TODAY) already happened via the scheduler Worker; skipping."
-            exit 0
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            rc=0; python -m moola.backup_guard || rc=$?   # exit 10 = already ran for this session
+            [ "$rc" = "10" ] && exit 0
+            [ "$rc" != "0" ] && exit "$rc"
           fi
           python -m moola.run_daily ${{ inputs.dry_run && '--dry-run' || '' }}
 

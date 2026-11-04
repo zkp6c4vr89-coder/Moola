@@ -6,7 +6,8 @@
 		"dev": "cf dev",
 		"build": "cf build",
 		"deploy": "cf deploy",
-		"typecheck": "cf workers types && tsc"
+		"typecheck": "cf workers types && tsc",
+		"test": "node --test \"test/*.test.ts\""
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "beta",
