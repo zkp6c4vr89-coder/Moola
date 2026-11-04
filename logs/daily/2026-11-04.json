@@ -1,0 +1,561 @@
+{
+  "date": "2026-11-04",
+  "run_time_utc": "2026-11-04T21:30:55.282640+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "3b75447f2a3d0336ead05b90425b2313ab7e590a",
+  "stock_session": true,
+  "account": {
+    "equity": 100925.72,
+    "cash": 14399.7,
+    "last_equity": 99466.63920945738,
+    "buying_power": 258089.3
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "BTC/USD",
+      "qty": 0.186410011,
+      "market_value": 14922.267899,
+      "avg_entry_price": 77439.287290611,
+      "current_price": 80050.786,
+      "unrealized_pl": 486.809503,
+      "unrealized_plpc": 0.03372
+    },
+    {
+      "symbol": "XLE",
+      "qty": 316.960137354,
+      "market_value": 20155.495134,
+      "avg_entry_price": 66.87699,
+      "current_price": 63.59,
+      "unrealized_pl": -1041.844802,
+      "unrealized_plpc": -0.04915
+    },
+    {
+      "symbol": "XLF",
+      "qty": 435.998951048,
+      "market_value": 25811.137902,
+      "avg_entry_price": 57.232477,
+      "current_price": 59.2,
+      "unrealized_pl": 857.837964,
+      "unrealized_plpc": 0.03438
+    },
+    {
+      "symbol": "XLV",
+      "qty": 134.946400562,
+      "market_value": 25637.117179,
+      "avg_entry_price": 184.912676,
+      "current_price": 189.98,
+      "unrealized_pl": 683.817135,
+      "unrealized_plpc": 0.0274
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 20.83,
+      "us10y": 4.95,
+      "curve_2s10s": 0.34
+    },
+    "crypto_fear_greed": 34,
+    "news": {
+      "SPY": {
+        "count": 77,
+        "sentiment": 0.198,
+        "headlines": [
+          {
+            "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
+            "source": "benzinga",
+            "created_at": "2026-11-04T20:53:11Z",
+            "sentiment": -0.161
+          },
+          {
+            "headline": "VTI Vs. SPY: Why Wall Street's Post-Midterm Rally Isn't as Broad as It Looks",
+            "source": "benzinga",
+            "created_at": "2026-11-04T20:27:55Z",
+            "sentiment": 0.34
+          },
+          {
+            "headline": "'Trump diesel deal with Russia falters as US fuel supplies hit 20-year low' - Financial Times",
+            "source": "benzinga",
+            "created_at": "2026-11-04T19:59:53Z",
+            "sentiment": -0.273
+          },
+          {
+            "headline": "President Trump Says Iran War Will End Whenever I Want It To; Not Considering Replacing Hegseth",
+            "source": "benzinga",
+            "created_at": "2026-11-04T18:24:17Z",
+            "sentiment": -0.557
+          },
+          {
+            "headline": "President Trump On Election, Says It's Largely True Election Loss Was Result Of Iran War; It Was Worth It; You Can't Let Iran Have A Nuclear Weapon;  I'll Get Along Probably With The Democrats Unless They Want to Be Destructive; If I Were On The Ballot We Would Have Won, We Weren't Able To Transfer The Love To Candidates; Says It Would Destroy Democratic Party If They Impeached Me",
+            "source": "benzinga",
+            "created_at": "2026-11-04T18:13:35Z",
+            "sentiment": -0.077
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 9,
+        "sentiment": 0.054,
+        "headlines": [
+          {
+            "headline": "QUICK SPARK: Trump Celebrates Stock Rally Fueled by His Own Party\u2019s Midterm Defeat",
+            "source": "benzinga",
+            "created_at": "2026-11-04T20:53:11Z",
+            "sentiment": -0.161
+          },
+          {
+            "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-04T17:31:02Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "Why Investors May Be Getting The Blue Wave Trade Wrong; Iran Remains The Wild Card",
+            "source": "benzinga",
+            "created_at": "2026-11-04T17:03:06Z",
+            "sentiment": -0.202
+          },
+          {
+            "headline": "8 Of 11 Sectors Rise Wednesday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-04T16:00:34Z",
+            "sentiment": 0.896
+          },
+          {
+            "headline": "Dan Ives Says Democratic Sweep Will Slow AI Buildout, Estimates 10% Of Planned US Data Centers \u2018Will Not Happen Now\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-04T13:57:11Z",
+            "sentiment": 0.128
+          }
+        ]
+      },
+      "IWM": {
+        "count": 2,
+        "sentiment": 0.3,
+        "headlines": [
+          {
+            "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-04T17:31:02Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "8 Of 11 Sectors Rise Wednesday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-04T16:00:34Z",
+            "sentiment": 0.896
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 1,
+        "sentiment": -0.386,
+        "headlines": [
+          {
+            "headline": "EXCLUSIVE: Midterm Results Are Unlikely to Trigger U-Turn in Treasury Yields \u2013 'Trump Keeps the Final Say,' Analyst Says",
+            "source": "benzinga",
+            "created_at": "2026-11-04T14:51:52Z",
+            "sentiment": -0.386
+          }
+        ]
+      },
+      "GLD": {
+        "count": 2,
+        "sentiment": 0.191,
+        "headlines": [
+          {
+            "headline": "Gold, Silver Add $1 Trillion After US Midterm Results: 4 ETFs to Trade As Rally Heats Up",
+            "source": "benzinga",
+            "created_at": "2026-11-04T13:55:15Z",
+            "sentiment": 0.382
+          },
+          {
+            "headline": "Democratic Sweep Drops Dollar, Pushing Gold Past $4,000 Toward Key Test",
+            "source": "benzinga",
+            "created_at": "2026-11-04T10:27:16Z",
+            "sentiment": 0.0
+          }
+        ]
+      },
+      "XLK": {
+        "count": 2,
+        "sentiment": 0.703,
+        "headlines": [
+          {
+            "headline": "8 Of 11 Sectors Rise Wednesday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-04T16:00:34Z",
+            "sentiment": 0.896
+          },
+          {
+            "headline": "Dow Futures Fall as Democrats Take Control of Congress: Peter Schiff Warns Trump Now Has a \u2018Scapegoat\u2019 for the \u2018Coming Economic Collapse\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-04T06:35:59Z",
+            "sentiment": 0.511
+          }
+        ]
+      },
+      "XLE": {
+        "count": 2,
+        "sentiment": 0.3,
+        "headlines": [
+          {
+            "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-04T17:31:02Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "8 Of 11 Sectors Rise Wednesday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-04T16:00:34Z",
+            "sentiment": 0.896
+          }
+        ]
+      },
+      "XLF": {
+        "count": 1,
+        "sentiment": 0.896,
+        "headlines": [
+          {
+            "headline": "8 Of 11 Sectors Rise Wednesday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-04T16:00:34Z",
+            "sentiment": 0.896
+          }
+        ]
+      },
+      "XLV": {
+        "count": 1,
+        "sentiment": 0.896,
+        "headlines": [
+          {
+            "headline": "8 Of 11 Sectors Rise Wednesday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-04T16:00:34Z",
+            "sentiment": 0.896
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 20,
+        "sentiment": 0.197,
+        "headlines": [
+          {
+            "headline": "Bitcoin Will Be Unbothered by Binance Hack, Bitwise's Matt Hougan Says",
+            "source": "benzinga",
+            "created_at": "2026-11-04T21:00:15Z",
+            "sentiment": 0.296
+          },
+          {
+            "headline": "Hut 8 Stock Sinks After Democratic Midterm Wins",
+            "source": "benzinga",
+            "created_at": "2026-11-04T19:20:19Z",
+            "sentiment": 0.818
+          },
+          {
+            "headline": "Bitcoin Reclaims $80,000 as Ethereum, XRP, Dogecoin Rally 4%",
+            "source": "benzinga",
+            "created_at": "2026-11-04T19:14:22Z",
+            "sentiment": -0.258
+          },
+          {
+            "headline": "Peter Schiff: Bitcoin's Midterm Rally Is \u2018Irrational,\u2019 Predicts Democrats Would Sell Bitcoin Reserve",
+            "source": "benzinga",
+            "created_at": "2026-11-04T18:22:00Z",
+            "sentiment": -0.586
+          },
+          {
+            "headline": "Dow Rallies 2.9%, Oil Sinks 7% After Midterms: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-04T17:31:02Z",
+            "sentiment": -0.296
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 6,
+        "sentiment": -0.024,
+        "headlines": [
+          {
+            "headline": "Bitcoin Reclaims $80,000 as Ethereum, XRP, Dogecoin Rally 4%",
+            "source": "benzinga",
+            "created_at": "2026-11-04T19:14:22Z",
+            "sentiment": -0.258
+          },
+          {
+            "headline": "Peter Schiff: Bitcoin's Midterm Rally Is \u2018Irrational,\u2019 Predicts Democrats Would Sell Bitcoin Reserve",
+            "source": "benzinga",
+            "created_at": "2026-11-04T18:22:00Z",
+            "sentiment": -0.586
+          },
+          {
+            "headline": "Why Is Bitmine Stock Surging on Wednesday?",
+            "source": "benzinga",
+            "created_at": "2026-11-04T17:45:08Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Bitcoin Pumps to $80,000, Ethereum, XRP, Solana Surge up to 6%",
+            "source": "benzinga",
+            "created_at": "2026-11-04T16:09:24Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "'Crypto Industry Braces for Capitol Hill Probes, Policy Defense' - Bloomberg Government",
+            "source": "benzinga",
+            "created_at": "2026-11-04T15:46:13Z",
+            "sentiment": 0.128
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 105.72,
+      "GLD": 372.49,
+      "IWM": 284.02,
+      "QQQ": 691.95,
+      "SPY": 766.81,
+      "TLT": 81.76,
+      "XLE": 63.52,
+      "XLF": 59.2,
+      "XLK": 176.5,
+      "XLV": 189.66,
+      "BTC/USD": 77340.9,
+      "ETH/USD": 2271.8145
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 77340.9,
+      "momentum": 0.0821,
+      "sma": 76656.1616,
+      "above_sma": true,
+      "vol": 0.3332
+    },
+    "EFA": {
+      "close": 105.72,
+      "momentum": 0.0047,
+      "sma": 102.5279,
+      "above_sma": true,
+      "vol": 0.1196
+    },
+    "ETH/USD": {
+      "close": 2271.8145,
+      "momentum": 0.0917,
+      "sma": 2351.6208,
+      "above_sma": false,
+      "vol": 0.3849
+    },
+    "GLD": {
+      "close": 372.49,
+      "momentum": -0.0899,
+      "sma": 411.9779,
+      "above_sma": false,
+      "vol": 0.2448
+    },
+    "IWM": {
+      "close": 284.02,
+      "momentum": -0.025,
+      "sma": 277.9693,
+      "above_sma": true,
+      "vol": 0.1348
+    },
+    "QQQ": {
+      "close": 691.95,
+      "momentum": -0.0171,
+      "sma": 679.4424,
+      "above_sma": true,
+      "vol": 0.1792
+    },
+    "SPY": {
+      "close": 766.81,
+      "momentum": 0.0252,
+      "sma": 727.1167,
+      "above_sma": true,
+      "vol": 0.1048
+    },
+    "TLT": {
+      "close": 81.76,
+      "momentum": -0.0123,
+      "sma": 82.8364,
+      "above_sma": false,
+      "vol": 0.1091
+    },
+    "XLE": {
+      "close": 63.52,
+      "momentum": 0.1138,
+      "sma": 58.438,
+      "above_sma": true,
+      "vol": 0.2326
+    },
+    "XLF": {
+      "close": 59.2,
+      "momentum": 0.0888,
+      "sma": 53.4763,
+      "above_sma": true,
+      "vol": 0.1496
+    },
+    "XLK": {
+      "close": 176.5,
+      "momentum": -0.003,
+      "sma": 169.7155,
+      "above_sma": true,
+      "vol": 0.244
+    },
+    "XLV": {
+      "close": 189.66,
+      "momentum": 0.2364,
+      "sma": 158.1489,
+      "above_sma": true,
+      "vol": 0.1809
+    }
+  },
+  "rationale": {
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: negative momentum",
+    "QQQ": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLK": "out: negative momentum",
+    "XLV": "in: momentum rank 1, weight 28.3%",
+    "XLE": "in: momentum rank 2, weight 22.0%",
+    "XLF": "in: momentum rank 3, weight 34.3%",
+    "BTC/USD": "in: momentum rank 4, weight 15.4%",
+    "SPY": "out: momentum rank 5 > top_n 4",
+    "EFA": "out: momentum rank 6 > top_n 4"
+  },
+  "raw_targets": {
+    "XLV": 0.2833069373356569,
+    "XLE": 0.22029253230104218,
+    "XLF": 0.34261947143701604,
+    "BTC/USD": 0.15378105892628494
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "XLE": 0.22029253230104218,
+    "XLF": 0.25,
+    "BTC/USD": 0.15378105892628494
+  },
+  "risk_flags": [
+    "capped XLV from 28.3% to 25%",
+    "capped XLF from 34.3% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "XLF",
+      "side": "sell",
+      "notional": 579.71,
+      "close_all": false,
+      "decision_price": 59.2,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "4348db1b-2a9c-4b8a-ae66-57b822070675",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLV",
+      "side": "sell",
+      "notional": 405.69,
+      "close_all": false,
+      "decision_price": 189.66,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "104fb1d1-eb8e-4cf9-af3d-5ff27ad7fd77",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLE",
+      "side": "buy",
+      "notional": 2077.69,
+      "close_all": false,
+      "decision_price": 63.52,
+      "reason": "rebalance to 22.0%",
+      "strategy_version": "v1",
+      "order_id": "b40d43b4-5794-4f0c-ad2c-86532e957f29",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "BTC/USD",
+      "side": "buy",
+      "notional": 598.2,
+      "close_all": false,
+      "decision_price": 77340.9,
+      "reason": "rebalance to 15.4%",
+      "strategy_version": "v1",
+      "order_id": "c9bc4534-58a3-4105-a88b-7b2a2ebf032e",
+      "status": "pending_new",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "b9928a6e-c854-468c-9081-54138ba00dbe",
+      "symbol": "XLE",
+      "side": "buy",
+      "filled_qty": 316.960137354,
+      "filled_avg_price": 66.87699,
+      "filled_at": "2026-11-03T14:33:19.729376+00:00",
+      "status": "filled",
+      "decision_price": 67.25,
+      "slippage_bps": -55.5
+    },
+    {
+      "order_id": "41bdabcb-8af9-43cf-954d-25bd0913a3e6",
+      "symbol": "XLV",
+      "side": "buy",
+      "filled_qty": 134.946400562,
+      "filled_avg_price": 184.912675,
+      "filled_at": "2026-11-03T14:35:07.771963+00:00",
+      "status": "filled",
+      "decision_price": 184.6,
+      "slippage_bps": 16.9
+    },
+    {
+      "order_id": "bec7ce5f-e4c1-4ff4-a82c-dd60e9ab5f3d",
+      "symbol": "XLF",
+      "side": "buy",
+      "filled_qty": 435.998951048,
+      "filled_avg_price": 57.232477,
+      "filled_at": "2026-11-03T14:34:34.827713+00:00",
+      "status": "filled",
+      "decision_price": 57.56,
+      "slippage_bps": -56.9
+    },
+    {
+      "order_id": "b4ad5a2b-a4c1-4e7f-ac90-2d54713b4a1e",
+      "symbol": "BTC/USD",
+      "side": "sell",
+      "filled_qty": 0.020163999,
+      "filled_avg_price": 76589.035925343,
+      "filled_at": "2026-11-03T02:58:51.883835+00:00",
+      "status": "filled",
+      "decision_price": 76676.23,
+      "slippage_bps": 11.4
+    }
+  ],
+  "errors": {}
+}

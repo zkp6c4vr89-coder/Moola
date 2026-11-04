@@ -4,3 +4,7 @@ date,symbol,side,notional,close_all,decision_price,reason,strategy_version,order
 2026-11-02,XLF,buy,24953.31,False,57.56,rebalance to 25.0%,v1,bec7ce5f-e4c1-4ff4-a82c-dd60e9ab5f3d,accepted,
 2026-11-02,XLV,buy,24953.31,False,184.6,rebalance to 25.0%,v1,41bdabcb-8af9-43cf-954d-25bd0913a3e6,accepted,
 2026-11-02,XLE,buy,21197.35,False,67.25,rebalance to 21.2%,v1,b9928a6e-c854-468c-9081-54138ba00dbe,accepted,
+2026-11-04,XLF,sell,579.71,False,59.2,rebalance to 25.0%,v1,4348db1b-2a9c-4b8a-ae66-57b822070675,accepted,
+2026-11-04,XLV,sell,405.69,False,189.66,rebalance to 25.0%,v1,104fb1d1-eb8e-4cf9-af3d-5ff27ad7fd77,accepted,
+2026-11-04,XLE,buy,2077.69,False,63.52,rebalance to 22.0%,v1,b40d43b4-5794-4f0c-ad2c-86532e957f29,accepted,
+2026-11-04,BTC/USD,buy,598.2,False,77340.9,rebalance to 15.4%,v1,c9bc4534-58a3-4105-a88b-7b2a2ebf032e,pending_new,
