@@ -1,8 +1,11 @@
 name: daily-run
 
 # Started daily at 21:30 UTC (after the US close; crypto-only on weekends/holidays) by the
-# Cloudflare Worker in scheduler/. GitHub's own cron ran 3-5 hours late.
+# Cloudflare Worker in scheduler/. GitHub's own cron (3-5 hours late) stays as a BACKUP until
+# the Worker has proven itself; a scheduled run skips itself if today's run is already logged.
 on:
+  schedule:
+    - cron: "30 21 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -39,7 +42,13 @@ jobs:
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
-        run: python -m moola.run_daily ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: |
+          TODAY=$(TZ=America/New_York date +%F)
+          if [ "${{ github.event_name }}" = "schedule" ] && tail -n 1 logs/equity.csv 2>/dev/null | grep -q "^$TODAY,"; then
+            echo "Backup cron: today's run ($TODAY) already happened via the scheduler Worker; skipping."
+            exit 0
+          fi
+          python -m moola.run_daily ${{ inputs.dry_run && '--dry-run' || '' }}
 
       - name: Commit logs
         if: ${{ !inputs.dry_run }}
