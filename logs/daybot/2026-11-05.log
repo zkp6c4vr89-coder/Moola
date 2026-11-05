@@ -1,0 +1,12 @@
+2026-11-05 09:35:50,551 ET INFO waiting until 09:45:00
+2026-11-05 09:45:00,000 ET INFO session morning running until 12:45:00 (base unit $10, dry run True)
+2026-11-05 10:10:11,383 ET INFO [dry run] would buy $2.50 MSFT (dev -0.61%, rsi 20, r/r 1.0)
+2026-11-05 10:11:11,359 ET INFO [dry run] would buy $2.50 MSFT (dev -0.61%, rsi 20, r/r 1.0)
+2026-11-05 10:30:11,854 ET INFO [dry run] would buy $2.50 NVDA (dev -1.69%, rsi 17, r/r 1.4)
+2026-11-05 10:31:11,721 ET INFO [dry run] would buy $2.50 NVDA (dev -1.69%, rsi 17, r/r 1.4)
+2026-11-05 10:35:11,624 ET INFO [dry run] would buy $2.50 AMZN (dev -2.10%, rsi 27, r/r 2.4)
+2026-11-05 10:36:11,651 ET INFO [dry run] would buy $2.50 AMZN (dev -2.10%, rsi 27, r/r 2.4)
+2026-11-05 11:00:12,446 ET INFO [dry run] would buy $2.50 NVDA (dev -2.54%, rsi 20, r/r 1.9)
+2026-11-05 11:01:12,465 ET INFO [dry run] would buy $2.50 NVDA (dev -2.54%, rsi 20, r/r 1.9)
+2026-11-05 11:10:11,925 ET INFO [dry run] would buy $2.50 NVDA (dev -2.14%, rsi 28, r/r 1.6)
+2026-11-05 11:11:11,666 ET INFO [dry run] would buy $2.50 NVDA (dev -2.14%, rsi 28, r/r 1.6)
