@@ -1,0 +1,561 @@
+{
+  "date": "2026-11-05",
+  "run_time_utc": "2026-11-05T21:30:54.349467+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "d88366391bd39e6d4721abf2be58ff1832a20d04",
+  "stock_session": true,
+  "account": {
+    "equity": 98101.98,
+    "cash": 12720.82,
+    "last_equity": 100945.3093322216,
+    "buying_power": 248791.58
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "BTC/USD",
+      "qty": 0.19371745,
+      "market_value": 14699.628797,
+      "avg_entry_price": 77538.832210943,
+      "current_price": 75881.8,
+      "unrealized_pl": -320.996055,
+      "unrealized_plpc": -0.02137
+    },
+    {
+      "symbol": "XLE",
+      "qty": 349.459433459,
+      "market_value": 21585.619962,
+      "avg_entry_price": 66.602924,
+      "current_price": 61.7686,
+      "unrealized_pl": -1689.400126,
+      "unrealized_plpc": -0.07258
+    },
+    {
+      "symbol": "XLF",
+      "qty": 426.319806663,
+      "market_value": 24538.968072,
+      "avg_entry_price": 57.232477,
+      "current_price": 57.56,
+      "unrealized_pl": 139.629543,
+      "unrealized_plpc": 0.00572
+    },
+    {
+      "symbol": "XLV",
+      "qty": 132.826417285,
+      "market_value": 24556.948028,
+      "avg_entry_price": 184.912676,
+      "current_price": 184.88,
+      "unrealized_pl": -4.340236,
+      "unrealized_plpc": -0.00018
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 16.61,
+      "us10y": 4.9,
+      "curve_2s10s": 0.32
+    },
+    "crypto_fear_greed": 50,
+    "news": {
+      "SPY": {
+        "count": 36,
+        "sentiment": 0.019,
+        "headlines": [
+          {
+            "headline": "'Trump-Backed Critical Minerals Deals Face Growing Pressure After Blue Wave' - Bloomberg News",
+            "source": "benzinga",
+            "created_at": "2026-11-05T20:40:04Z",
+            "sentiment": -0.421
+          },
+          {
+            "headline": "'Rubio Considers Leaving Administration After GOP\u2019s Midterm Loss' - Bloomberg Exclusive",
+            "source": "benzinga",
+            "created_at": "2026-11-05T19:50:59Z",
+            "sentiment": -0.202
+          },
+          {
+            "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
+            "source": "benzinga",
+            "created_at": "2026-11-05T17:37:12Z",
+            "sentiment": 0.494
+          },
+          {
+            "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
+            "source": "benzinga",
+            "created_at": "2026-11-05T17:28:34Z",
+            "sentiment": 0.494
+          },
+          {
+            "headline": "'Marco Rubio \u2018on resignation watch\u2019 from Trump administration after midterms disaster' - Independent",
+            "source": "benzinga",
+            "created_at": "2026-11-05T17:10:32Z",
+            "sentiment": -0.743
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 13,
+        "sentiment": -0.037,
+        "headlines": [
+          {
+            "headline": "From Micron to AMD, AI Stocks Crater \u2014 And Citi Just Flagged an 'Exponential' New Threat to Data Centers",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:14:20Z",
+            "sentiment": -0.735
+          },
+          {
+            "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:13:10Z",
+            "sentiment": -0.625
+          },
+          {
+            "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
+            "source": "benzinga",
+            "created_at": "2026-11-05T17:37:12Z",
+            "sentiment": 0.494
+          },
+          {
+            "headline": "CoreWeave and Nebius Tumble 15% as Amazon and Big Tech Hyperscalers Outlast AI Data Center Selloff",
+            "source": "benzinga",
+            "created_at": "2026-11-05T17:28:34Z",
+            "sentiment": 0.494
+          },
+          {
+            "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-05T16:00:23Z",
+            "sentiment": 0.361
+          }
+        ]
+      },
+      "IWM": {
+        "count": 2,
+        "sentiment": -0.132,
+        "headlines": [
+          {
+            "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:13:10Z",
+            "sentiment": -0.625
+          },
+          {
+            "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-05T16:00:23Z",
+            "sentiment": 0.361
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 1,
+        "sentiment": 0.0,
+        "headlines": [
+          {
+            "headline": "Five Signals That Preceded Past Recessions Are Back \u2014 and AI Is at the Center",
+            "source": "benzinga",
+            "created_at": "2026-11-05T13:45:04Z",
+            "sentiment": 0.0
+          }
+        ]
+      },
+      "GLD": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLK": {
+        "count": 3,
+        "sentiment": -0.324,
+        "headlines": [
+          {
+            "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:13:10Z",
+            "sentiment": -0.625
+          },
+          {
+            "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-05T16:00:23Z",
+            "sentiment": 0.361
+          },
+          {
+            "headline": "Politicians Fight Data Centers While Betting Your Retirement on Them",
+            "source": "benzinga",
+            "created_at": "2026-11-05T12:23:29Z",
+            "sentiment": -0.71
+          }
+        ]
+      },
+      "XLE": {
+        "count": 2,
+        "sentiment": -0.132,
+        "headlines": [
+          {
+            "headline": "VIX Spikes 39% as AI Tech Rout Wipes Out $2.2 Trillion: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:13:10Z",
+            "sentiment": -0.625
+          },
+          {
+            "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-05T16:00:23Z",
+            "sentiment": 0.361
+          }
+        ]
+      },
+      "XLF": {
+        "count": 1,
+        "sentiment": 0.361,
+        "headlines": [
+          {
+            "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-05T16:00:23Z",
+            "sentiment": 0.361
+          }
+        ]
+      },
+      "XLV": {
+        "count": 2,
+        "sentiment": 0.428,
+        "headlines": [
+          {
+            "headline": "Market Bets On Democrats' Magic Wands\u2014Why You Should Be Skeptical",
+            "source": "benzinga",
+            "created_at": "2026-11-05T17:37:12Z",
+            "sentiment": 0.494
+          },
+          {
+            "headline": "Defensives Lead Sectors Thursday As Growth Sectors Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-05T16:00:23Z",
+            "sentiment": 0.361
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 20,
+        "sentiment": -0.166,
+        "headlines": [
+          {
+            "headline": "Bitcoin, ETH Don't Need Need a Catalyst, Coinbase Exec Says: \u2018It\u2019s Happening\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-05T20:45:07Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "Robinhood Stock Plunges as Bitcoin Dips After Elections",
+            "source": "benzinga",
+            "created_at": "2026-11-05T19:09:09Z",
+            "sentiment": 0.296
+          },
+          {
+            "headline": "Riot Platforms\u2019 Powered Land Lease Lowers Build Costs, But Texas Election Adds Timing Risk, Analysts Say",
+            "source": "benzinga",
+            "created_at": "2026-11-05T19:08:34Z",
+            "sentiment": -0.946
+          },
+          {
+            "headline": "Bitcoin, Ethereum, XRP Slide as Peter Schiff Warns \u2018Expect More Days Like Today\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:30:10Z",
+            "sentiment": -0.385
+          },
+          {
+            "headline": "'Greek parliament approves 10% tax on cryptocurrency gains' - Reuters",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:23:20Z",
+            "sentiment": 0.625
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 5,
+        "sentiment": -0.114,
+        "headlines": [
+          {
+            "headline": "Bitcoin, ETH Don't Need Need a Catalyst, Coinbase Exec Says: \u2018It\u2019s Happening\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-05T20:45:07Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "Bitcoin, Ethereum, XRP Slide as Peter Schiff Warns \u2018Expect More Days Like Today\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:30:10Z",
+            "sentiment": -0.385
+          },
+          {
+            "headline": "'Greek parliament approves 10% tax on cryptocurrency gains' - Reuters",
+            "source": "benzinga",
+            "created_at": "2026-11-05T18:23:20Z",
+            "sentiment": 0.625
+          },
+          {
+            "headline": "Bitcoin Plunges to $76,000, Ethereum, XRP, Dogecoin Drop 5% On $500M in Liquidations",
+            "source": "benzinga",
+            "created_at": "2026-11-05T16:06:44Z",
+            "sentiment": -0.764
+          },
+          {
+            "headline": "Bitcoin Tops $81,000, Ethereum, XRP, Dogecoin Also Jump After Midterm Elections: Analyst Says BTC About to 'Flip' Downtrend Into an Uptrend",
+            "source": "benzinga",
+            "created_at": "2026-11-05T02:04:23Z",
+            "sentiment": 0.25
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 102.7,
+      "GLD": 375.49,
+      "IWM": 270.98,
+      "QQQ": 647.05,
+      "SPY": 733.0,
+      "TLT": 81.93,
+      "XLE": 61.63,
+      "XLF": 57.5,
+      "XLK": 162.38,
+      "XLV": 184.91,
+      "BTC/USD": 80438.0965,
+      "ETH/USD": 2422.52
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 80438.0965,
+      "momentum": 0.1275,
+      "sma": 76823.523,
+      "above_sma": true,
+      "vol": 0.3471
+    },
+    "EFA": {
+      "close": 102.7,
+      "momentum": -0.02,
+      "sma": 102.5539,
+      "above_sma": true,
+      "vol": 0.1327
+    },
+    "ETH/USD": {
+      "close": 2422.52,
+      "momentum": 0.1617,
+      "sma": 2356.944,
+      "above_sma": true,
+      "vol": 0.4163
+    },
+    "GLD": {
+      "close": 375.49,
+      "momentum": -0.0939,
+      "sma": 411.6373,
+      "above_sma": false,
+      "vol": 0.2445
+    },
+    "IWM": {
+      "close": 270.98,
+      "momentum": -0.0671,
+      "sma": 277.9943,
+      "above_sma": false,
+      "vol": 0.1634
+    },
+    "QQQ": {
+      "close": 647.05,
+      "momentum": -0.0855,
+      "sma": 679.6067,
+      "above_sma": false,
+      "vol": 0.2236
+    },
+    "SPY": {
+      "close": 733.0,
+      "momentum": -0.0213,
+      "sma": 727.3814,
+      "above_sma": true,
+      "vol": 0.139
+    },
+    "TLT": {
+      "close": 81.93,
+      "momentum": -0.0093,
+      "sma": 82.826,
+      "above_sma": false,
+      "vol": 0.1091
+    },
+    "XLE": {
+      "close": 61.63,
+      "momentum": 0.0971,
+      "sma": 58.5071,
+      "above_sma": true,
+      "vol": 0.241
+    },
+    "XLF": {
+      "close": 57.5,
+      "momentum": 0.0625,
+      "sma": 53.4998,
+      "above_sma": true,
+      "vol": 0.1612
+    },
+    "XLK": {
+      "close": 162.38,
+      "momentum": -0.088,
+      "sma": 169.811,
+      "above_sma": false,
+      "vol": 0.294
+    },
+    "XLV": {
+      "close": 184.91,
+      "momentum": 0.2043,
+      "sma": 158.2918,
+      "above_sma": true,
+      "vol": 0.1893
+    }
+  },
+  "rationale": {
+    "EFA": "out: negative momentum",
+    "GLD": "out: below moving average",
+    "IWM": "out: below moving average",
+    "QQQ": "out: below moving average",
+    "SPY": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLK": "out: below moving average",
+    "XLV": "in: momentum rank 1, weight 35.9%",
+    "ETH/USD": "in: momentum rank 2, weight 16.3%",
+    "BTC/USD": "in: momentum rank 3, weight 19.6%",
+    "XLE": "in: momentum rank 4, weight 28.2%",
+    "XLF": "out: momentum rank 5 > top_n 4"
+  },
+  "raw_targets": {
+    "XLV": 0.35900911963333065,
+    "ETH/USD": 0.16324248016304796,
+    "BTC/USD": 0.19577107807532843,
+    "XLE": 0.28197732212829296
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "ETH/USD": 0.13640917710522135,
+    "BTC/USD": 0.16359082289477864,
+    "XLE": 0.25
+  },
+  "risk_flags": [
+    "capped XLV from 35.9% to 25%",
+    "capped XLE from 28.2% to 25%",
+    "scaled crypto from 35.9% to 30%"
+  ],
+  "orders": [
+    {
+      "symbol": "XLF",
+      "side": "sell",
+      "notional": 24538.968072,
+      "close_all": true,
+      "decision_price": 57.5,
+      "reason": "exit: no longer a target",
+      "strategy_version": "v1",
+      "order_id": "785d204f-5636-40bd-8f23-5e2a83f8d8a9",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "ETH/USD",
+      "side": "buy",
+      "notional": 13382.01,
+      "close_all": false,
+      "decision_price": 2422.52,
+      "reason": "rebalance to 13.6%",
+      "strategy_version": "v1",
+      "order_id": "eb2821af-874d-44f9-a7e7-abcb83f67aac",
+      "status": "pending_new",
+      "error": null
+    },
+    {
+      "symbol": "XLE",
+      "side": "buy",
+      "notional": 2939.88,
+      "close_all": false,
+      "decision_price": 61.63,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "31d024ec-19ec-4108-b893-a3b37d9e7b98",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "BTC/USD",
+      "side": "buy",
+      "notional": 1348.95,
+      "close_all": false,
+      "decision_price": 80438.0965,
+      "reason": "rebalance to 16.4%",
+      "strategy_version": "v1",
+      "order_id": "8640efc1-a5e6-4618-bf7f-fc4d51ab6be4",
+      "status": "pending_new",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "4348db1b-2a9c-4b8a-ae66-57b822070675",
+      "symbol": "XLF",
+      "side": "sell",
+      "filled_qty": 9.679144385,
+      "filled_avg_price": 59.891658,
+      "filled_at": "2026-11-05T14:34:47.479353+00:00",
+      "status": "filled",
+      "decision_price": 59.2,
+      "slippage_bps": -116.8
+    },
+    {
+      "order_id": "104fb1d1-eb8e-4cf9-af3d-5ff27ad7fd77",
+      "symbol": "XLV",
+      "side": "sell",
+      "filled_qty": 2.119983277,
+      "filled_avg_price": 191.36,
+      "filled_at": "2026-11-05T14:30:14.160735+00:00",
+      "status": "filled",
+      "decision_price": 189.66,
+      "slippage_bps": -89.6
+    },
+    {
+      "order_id": "b40d43b4-5794-4f0c-ad2c-86532e957f29",
+      "symbol": "XLE",
+      "side": "buy",
+      "filled_qty": 32.499296105,
+      "filled_avg_price": 63.93,
+      "filled_at": "2026-11-05T14:31:51.566684+00:00",
+      "status": "filled",
+      "decision_price": 63.52,
+      "slippage_bps": 64.5
+    },
+    {
+      "order_id": "c9bc4534-58a3-4105-a88b-7b2a2ebf032e",
+      "symbol": "BTC/USD",
+      "side": "buy",
+      "filled_qty": 0.007325754,
+      "filled_avg_price": 80071.561398171,
+      "filled_at": "2026-11-04T21:30:58.259355+00:00",
+      "status": "filled",
+      "decision_price": 77340.9,
+      "slippage_bps": 353.1
+    }
+  ],
+  "errors": {}
+}
