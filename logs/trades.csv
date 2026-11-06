@@ -12,3 +12,8 @@ date,symbol,side,notional,close_all,decision_price,reason,strategy_version,order
 2026-11-05,ETH/USD,buy,13382.01,False,2422.52,rebalance to 13.6%,v1,eb2821af-874d-44f9-a7e7-abcb83f67aac,pending_new,
 2026-11-05,XLE,buy,2939.88,False,61.63,rebalance to 25.0%,v1,31d024ec-19ec-4108-b893-a3b37d9e7b98,accepted,
 2026-11-05,BTC/USD,buy,1348.95,False,80438.0965,rebalance to 16.4%,v1,8640efc1-a5e6-4618-bf7f-fc4d51ab6be4,pending_new,
+2026-11-06,BTC/USD,sell,15974.100825,True,75971.885,exit: no longer a target,v1,96019bfe-887b-489a-b334-54dcaa7f065f,pending_new,
+2026-11-06,ETH/USD,sell,13057.025447,True,2234.5605,exit: no longer a target,v1,f69e9275-4dcf-44d1-a71d-1a6b4b3654e1,pending_new,
+2026-11-06,XLV,sell,138.35,False,184.8,rebalance to 25.0%,v1,a45501c5-a3a5-4418-8541-f4b585836c29,accepted,
+2026-11-06,XLE,sell,90.52,False,61.62,rebalance to 25.0%,v1,a4dc9e69-2bca-4eca-8bb4-d7efc13e541f,accepted,
+2026-11-06,XLF,buy,24427.9,False,57.16,rebalance to 25.0%,v1,a751e731-6b75-4b31-b9f1-469dda985d01,accepted,
