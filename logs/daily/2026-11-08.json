@@ -1,0 +1,271 @@
+{
+  "date": "2026-11-08",
+  "run_time_utc": "2026-11-08T21:30:53.016667+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "8cc04552787be64dc2c5633549cb12aa9069546c",
+  "stock_session": false,
+  "account": {
+    "equity": 97556.15,
+    "cash": 48527.17,
+    "last_equity": 97556.14507881393,
+    "buying_power": 306961.91
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "XLE",
+      "qty": 397.316669337,
+      "market_value": 24482.653165,
+      "avg_entry_price": 65.979839,
+      "current_price": 61.62,
+      "unrealized_pl": -1732.23671,
+      "unrealized_plpc": -0.06608
+    },
+    {
+      "symbol": "XLV",
+      "qty": 132.826417285,
+      "market_value": 24546.321914,
+      "avg_entry_price": 184.917666,
+      "current_price": 184.8,
+      "unrealized_pl": -15.629153,
+      "unrealized_plpc": -0.00064
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 28.18,
+      "us10y": 4.84,
+      "curve_2s10s": 0.35
+    },
+    "crypto_fear_greed": 28,
+    "news": {
+      "SPY": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "QQQ": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "IWM": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "GLD": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLK": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLE": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLF": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLV": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "BTC/USD": {
+        "count": 2,
+        "sentiment": -0.321,
+        "headlines": [
+          {
+            "headline": "Top Thtee Mid-Cap Stocks to Watch This Week: Zeta Global, eToro, Ondas",
+            "source": "benzinga",
+            "created_at": "2026-11-08T20:50:29Z",
+            "sentiment": 0.202
+          },
+          {
+            "headline": "Bitcoin, Ethereum, and Solana ETF Outflows Jump as Key Fear Gauge Drops After Midterms",
+            "source": "benzinga",
+            "created_at": "2026-11-08T19:30:07Z",
+            "sentiment": -0.844
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 1,
+        "sentiment": -0.844,
+        "headlines": [
+          {
+            "headline": "Bitcoin, Ethereum, and Solana ETF Outflows Jump as Key Fear Gauge Drops After Midterms",
+            "source": "benzinga",
+            "created_at": "2026-11-08T19:30:07Z",
+            "sentiment": -0.844
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 101.89,
+      "GLD": 372.52,
+      "IWM": 273.67,
+      "QQQ": 656.1,
+      "SPY": 735.29,
+      "TLT": 81.92,
+      "XLE": 61.62,
+      "XLF": 57.16,
+      "XLK": 164.74,
+      "XLV": 184.8,
+      "BTC/USD": 75757.35,
+      "ETH/USD": 2236.9
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 75757.35,
+      "momentum": 0.0474,
+      "sma": 77173.3956,
+      "above_sma": false,
+      "vol": 0.3717
+    },
+    "EFA": {
+      "close": 101.89,
+      "momentum": -0.0305,
+      "sma": 102.574,
+      "above_sma": false,
+      "vol": 0.1333
+    },
+    "ETH/USD": {
+      "close": 2236.9,
+      "momentum": 0.0638,
+      "sma": 2366.5658,
+      "above_sma": false,
+      "vol": 0.4583
+    },
+    "GLD": {
+      "close": 372.52,
+      "momentum": -0.1079,
+      "sma": 411.241,
+      "above_sma": false,
+      "vol": 0.2432
+    },
+    "IWM": {
+      "close": 273.67,
+      "momentum": -0.0587,
+      "sma": 278.0228,
+      "above_sma": false,
+      "vol": 0.1649
+    },
+    "QQQ": {
+      "close": 656.1,
+      "momentum": -0.0822,
+      "sma": 679.7939,
+      "above_sma": false,
+      "vol": 0.2243
+    },
+    "SPY": {
+      "close": 735.29,
+      "momentum": -0.0223,
+      "sma": 727.6398,
+      "above_sma": true,
+      "vol": 0.1383
+    },
+    "TLT": {
+      "close": 81.92,
+      "momentum": -0.0076,
+      "sma": 82.8137,
+      "above_sma": false,
+      "vol": 0.1085
+    },
+    "XLE": {
+      "close": 61.62,
+      "momentum": 0.0755,
+      "sma": 58.5754,
+      "above_sma": true,
+      "vol": 0.241
+    },
+    "XLF": {
+      "close": 57.16,
+      "momentum": 0.0578,
+      "sma": 53.5198,
+      "above_sma": true,
+      "vol": 0.1611
+    },
+    "XLK": {
+      "close": 164.74,
+      "momentum": -0.087,
+      "sma": 169.9129,
+      "above_sma": false,
+      "vol": 0.2949
+    },
+    "XLV": {
+      "close": 184.8,
+      "momentum": 0.1999,
+      "sma": 158.434,
+      "above_sma": true,
+      "vol": 0.1893
+    }
+  },
+  "rationale": {
+    "BTC/USD": "out: below moving average",
+    "EFA": "out: below moving average",
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: below moving average",
+    "QQQ": "out: below moving average",
+    "SPY": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLK": "out: below moving average",
+    "XLV": "in: momentum rank 1, weight 33.8%",
+    "XLE": "in: momentum rank 2, weight 26.5%",
+    "XLF": "in: momentum rank 3, weight 39.7%"
+  },
+  "raw_targets": {
+    "XLV": 0.3377929730284578,
+    "XLE": 0.2653277939406992,
+    "XLF": 0.396879233030843
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "XLE": 0.25,
+    "XLF": 0.25
+  },
+  "risk_flags": [
+    "capped XLV from 33.8% to 25%",
+    "capped XLE from 26.5% to 25%",
+    "capped XLF from 39.7% to 25%"
+  ],
+  "orders": [],
+  "fills_since_last_run": [],
+  "errors": {}
+}
