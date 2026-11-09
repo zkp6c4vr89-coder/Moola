@@ -1,0 +1,529 @@
+{
+  "date": "2026-11-09",
+  "run_time_utc": "2026-11-09T21:30:56.552805+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "ff6d2b7b586f18a52f6a32d4ca24859eef8308e7",
+  "stock_session": true,
+  "account": {
+    "equity": 98294.0,
+    "cash": 24328.15,
+    "last_equity": 97556.14507881393,
+    "buying_power": 304416.98
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "XLE",
+      "qty": 395.838791786,
+      "market_value": 24482.629272,
+      "avg_entry_price": 65.979839,
+      "current_price": 61.85,
+      "unrealized_pl": -1634.75048,
+      "unrealized_plpc": -0.06259
+    },
+    {
+      "symbol": "XLF",
+      "qty": 424.441339812,
+      "market_value": 24609.108882,
+      "avg_entry_price": 57.553041,
+      "current_price": 57.98,
+      "unrealized_pl": 181.21905,
+      "unrealized_plpc": 0.00742
+    },
+    {
+      "symbol": "XLV",
+      "qty": 132.084275884,
+      "market_value": 24874.110834,
+      "avg_entry_price": 184.917666,
+      "current_price": 188.32,
+      "unrealized_pl": 449.394822,
+      "unrealized_plpc": 0.0184
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 25.64,
+      "us10y": 4.86,
+      "curve_2s10s": 0.35
+    },
+    "crypto_fear_greed": 29,
+    "news": {
+      "SPY": {
+        "count": 41,
+        "sentiment": 0.192,
+        "headlines": [
+          {
+            "headline": "House Democratic Minority Leader Hakeem Jeffries Says There Are Real Concerns That Need To Be Addressed With Respect To The NVIDIA Situation; Says NVIDIA Situation Came Up In Intelligence Briefing But Mostly About Iran; Says He Strongly Supports Chips Restrictions In Senate NDAA On China Becoming Law",
+            "source": "benzinga",
+            "created_at": "2026-11-09T20:31:30Z",
+            "sentiment": 0.84
+          },
+          {
+            "headline": "House Democratic Minority Leader Hakeem Jeffries Says \u201cClearly Congress Needs More Information About NVIDIA Situation\u201d",
+            "source": "benzinga",
+            "created_at": "2026-11-09T20:25:34Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "President Trump Says Abu Dhabi Talks This Week On Ukraine Present Chance Of A Possible Breakthrough",
+            "source": "benzinga",
+            "created_at": "2026-11-09T20:23:19Z",
+            "sentiment": 0.25
+          },
+          {
+            "headline": "President Trump Defends Pentagon Chief Hegseth Against Impeachment Efforts, Says 'He Won Two Wars\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-09T20:22:17Z",
+            "sentiment": 0.572
+          },
+          {
+            "headline": "President Trump Tells Reuters After Talks With Qatari Leader That Qatar Would Rather See A Peaceful Solution With Iran But The U.S. Is Ready For Strikes If Necessary; Says Saudi Arabia Would Also Prefer A Peaceful Solution To Iran Conflict",
+            "source": "benzinga",
+            "created_at": "2026-11-09T20:20:53Z",
+            "sentiment": 0.793
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 6,
+        "sentiment": 0.129,
+        "headlines": [
+          {
+            "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-09T17:59:58Z",
+            "sentiment": -0.765
+          },
+          {
+            "headline": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
+            "source": "benzinga",
+            "created_at": "2026-11-09T17:20:00Z",
+            "sentiment": 0.052
+          },
+          {
+            "headline": "Hims-Eli Lilly GLP-1 Deal Meets Summit\u2019s FDA Gamble: Which Biotech ETFs Stand to Gain?",
+            "source": "benzinga",
+            "created_at": "2026-11-09T16:51:46Z",
+            "sentiment": 0.527
+          },
+          {
+            "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-09T16:00:24Z",
+            "sentiment": 0.758
+          },
+          {
+            "headline": "Nvidia\u2019s $540 Billion ETF Empire Has a Jensen Huang Problem",
+            "source": "benzinga",
+            "created_at": "2026-11-09T14:39:34Z",
+            "sentiment": 0.202
+          }
+        ]
+      },
+      "IWM": {
+        "count": 2,
+        "sentiment": -0.004,
+        "headlines": [
+          {
+            "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-09T17:59:58Z",
+            "sentiment": -0.765
+          },
+          {
+            "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-09T16:00:24Z",
+            "sentiment": 0.758
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 1,
+        "sentiment": 0.607,
+        "headlines": [
+          {
+            "headline": "Peter Schiff Says Congress Can't Lower Prices Without Cutting Government Spending, Calls Higher Prices 'the Tax Americans Pay' for Programs 'Democrats Love'",
+            "source": "benzinga",
+            "created_at": "2026-11-09T02:54:39Z",
+            "sentiment": 0.607
+          }
+        ]
+      },
+      "GLD": {
+        "count": 1,
+        "sentiment": -0.226,
+        "headlines": [
+          {
+            "headline": "Forget the ETF Outflows: Gold Miners Offer 3X Leverage As Cash Flow Surges",
+            "source": "benzinga",
+            "created_at": "2026-11-09T12:00:26Z",
+            "sentiment": -0.226
+          }
+        ]
+      },
+      "XLK": {
+        "count": 2,
+        "sentiment": 0.093,
+        "headlines": [
+          {
+            "headline": "Why Is Delta Air Lines Stock Surging on Monday?",
+            "source": "benzinga",
+            "created_at": "2026-11-09T18:34:13Z",
+            "sentiment": -0.572
+          },
+          {
+            "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-09T16:00:24Z",
+            "sentiment": 0.758
+          }
+        ]
+      },
+      "XLE": {
+        "count": 2,
+        "sentiment": -0.004,
+        "headlines": [
+          {
+            "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-09T17:59:58Z",
+            "sentiment": -0.765
+          },
+          {
+            "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-09T16:00:24Z",
+            "sentiment": 0.758
+          }
+        ]
+      },
+      "XLF": {
+        "count": 1,
+        "sentiment": 0.758,
+        "headlines": [
+          {
+            "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-09T16:00:24Z",
+            "sentiment": 0.758
+          }
+        ]
+      },
+      "XLV": {
+        "count": 2,
+        "sentiment": 0.642,
+        "headlines": [
+          {
+            "headline": "Hims-Eli Lilly GLP-1 Deal Meets Summit\u2019s FDA Gamble: Which Biotech ETFs Stand to Gain?",
+            "source": "benzinga",
+            "created_at": "2026-11-09T16:51:46Z",
+            "sentiment": 0.527
+          },
+          {
+            "headline": "11 Of 11 Sectors Rise Monday As Growth Leads",
+            "source": "benzinga",
+            "created_at": "2026-11-09T16:00:24Z",
+            "sentiment": 0.758
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 18,
+        "sentiment": -0.099,
+        "headlines": [
+          {
+            "headline": "Anthony Scaramucci Says Bitcoin Should Already Be Trading at $200,000",
+            "source": "benzinga",
+            "created_at": "2026-11-09T21:04:05Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Bitcoin Could Bottom in December, Prominent Bearish Analyst Predicts",
+            "source": "benzinga",
+            "created_at": "2026-11-09T21:00:06Z",
+            "sentiment": -0.024
+          },
+          {
+            "headline": "Bitcoin Falls Below $75,000, Drags Ethereum, XRP, Dogecoin 5% Lower",
+            "source": "benzinga",
+            "created_at": "2026-11-09T18:53:29Z",
+            "sentiment": -0.625
+          },
+          {
+            "headline": "Nasdaq 100 Jumps 3% as Chips Rebound; Nvidia Lags Most Since DeepSeek: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-09T17:59:58Z",
+            "sentiment": -0.765
+          },
+          {
+            "headline": "Nvidia Stock\u2014Is the Huang Controversy a Long-Term Risk?",
+            "source": "benzinga",
+            "created_at": "2026-11-09T17:20:00Z",
+            "sentiment": 0.052
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 8,
+        "sentiment": 0.016,
+        "headlines": [
+          {
+            "headline": "Bitcoin Could Bottom in December, Prominent Bearish Analyst Predicts",
+            "source": "benzinga",
+            "created_at": "2026-11-09T21:00:06Z",
+            "sentiment": -0.024
+          },
+          {
+            "headline": "Bitcoin Falls Below $75,000, Drags Ethereum, XRP, Dogecoin 5% Lower",
+            "source": "benzinga",
+            "created_at": "2026-11-09T18:53:29Z",
+            "sentiment": -0.625
+          },
+          {
+            "headline": "QUICK SPARK: Canary Capital Launches Staked INJ ETF With Yield Potential",
+            "source": "benzinga",
+            "created_at": "2026-11-09T17:09:41Z",
+            "sentiment": 0.694
+          },
+          {
+            "headline": "Bitmine Adds 9,587 ETH as Tom Lee Hails \u2018Seismic Shift\u2019 for Ethereum",
+            "source": "benzinga",
+            "created_at": "2026-11-09T15:30:12Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Bitcoin, Monero Remain the Best Coins for Market in 'Despair,' Analyst Argues",
+            "source": "benzinga",
+            "created_at": "2026-11-09T14:45:06Z",
+            "sentiment": 0.273
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 104.96,
+      "GLD": 379.53,
+      "IWM": 282.51,
+      "QQQ": 679.35,
+      "SPY": 752.69,
+      "TLT": 81.96,
+      "XLE": 61.94,
+      "XLF": 57.99,
+      "XLK": 170.88,
+      "XLV": 188.33,
+      "BTC/USD": 74756.4805,
+      "ETH/USD": 2124.9505
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 74756.4805,
+      "momentum": 0.0492,
+      "sma": 77292.8348,
+      "above_sma": false,
+      "vol": 0.373
+    },
+    "EFA": {
+      "close": 104.96,
+      "momentum": -0.0006,
+      "sma": 102.6067,
+      "above_sma": true,
+      "vol": 0.1472
+    },
+    "ETH/USD": {
+      "close": 2124.9505,
+      "momentum": 0.0349,
+      "sma": 2369.2182,
+      "above_sma": false,
+      "vol": 0.474
+    },
+    "GLD": {
+      "close": 379.53,
+      "momentum": -0.0901,
+      "sma": 410.8486,
+      "above_sma": false,
+      "vol": 0.2461
+    },
+    "IWM": {
+      "close": 282.51,
+      "momentum": -0.0319,
+      "sma": 278.1201,
+      "above_sma": true,
+      "vol": 0.1779
+    },
+    "QQQ": {
+      "close": 679.35,
+      "momentum": -0.0495,
+      "sma": 680.0876,
+      "above_sma": false,
+      "vol": 0.2363
+    },
+    "SPY": {
+      "close": 752.69,
+      "momentum": 0.0013,
+      "sma": 727.9839,
+      "above_sma": true,
+      "vol": 0.1468
+    },
+    "TLT": {
+      "close": 81.96,
+      "momentum": -0.005,
+      "sma": 82.8004,
+      "above_sma": false,
+      "vol": 0.1076
+    },
+    "XLE": {
+      "close": 61.94,
+      "momentum": 0.0601,
+      "sma": 58.6439,
+      "above_sma": true,
+      "vol": 0.2396
+    },
+    "XLF": {
+      "close": 57.99,
+      "momentum": 0.0739,
+      "sma": 53.5476,
+      "above_sma": true,
+      "vol": 0.1638
+    },
+    "XLK": {
+      "close": 170.88,
+      "momentum": -0.0589,
+      "sma": 170.0444,
+      "above_sma": true,
+      "vol": 0.3053
+    },
+    "XLV": {
+      "close": 188.33,
+      "momentum": 0.2264,
+      "sma": 158.5979,
+      "above_sma": true,
+      "vol": 0.1918
+    }
+  },
+  "rationale": {
+    "BTC/USD": "out: below moving average",
+    "EFA": "out: negative momentum",
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: negative momentum",
+    "QQQ": "out: below moving average",
+    "TLT": "out: below moving average",
+    "XLK": "out: negative momentum",
+    "XLV": "in: momentum rank 1, weight 23.4%",
+    "XLF": "in: momentum rank 2, weight 27.4%",
+    "XLE": "in: momentum rank 3, weight 18.7%",
+    "SPY": "in: momentum rank 4, weight 30.5%"
+  },
+  "raw_targets": {
+    "XLV": 0.23373302783251,
+    "XLF": 0.2737156401850543,
+    "XLE": 0.18713455675020957,
+    "SPY": 0.30541677523222605
+  },
+  "final_targets": {
+    "XLV": 0.23373302783251,
+    "XLF": 0.25,
+    "XLE": 0.18713455675020957,
+    "SPY": 0.25
+  },
+  "risk_flags": [
+    "capped XLF from 27.4% to 25%",
+    "capped SPY from 30.5% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "XLE",
+      "side": "sell",
+      "notional": 6088.43,
+      "close_all": false,
+      "decision_price": 61.94,
+      "reason": "rebalance to 18.7%",
+      "strategy_version": "v1",
+      "order_id": "3f47a8ad-3561-4f61-bd1e-2e41750eff8e",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLV",
+      "side": "sell",
+      "notional": 1899.56,
+      "close_all": false,
+      "decision_price": 188.33,
+      "reason": "rebalance to 23.4%",
+      "strategy_version": "v1",
+      "order_id": "8f78a095-8b3b-481c-99d7-6e5a35d032dd",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "SPY",
+      "side": "buy",
+      "notional": 24573.5,
+      "close_all": false,
+      "decision_price": 752.69,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "c0cc6dc4-ce67-490d-83b5-4f482eaa9507",
+      "status": "accepted",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "a4dc9e69-2bca-4eca-8bb4-d7efc13e541f",
+      "symbol": "XLE",
+      "side": "sell",
+      "filled_qty": 1.477877551,
+      "filled_avg_price": 61.25,
+      "filled_at": "2026-11-09T14:30:00.148156+00:00",
+      "status": "filled",
+      "decision_price": 61.62,
+      "slippage_bps": 60.0
+    },
+    {
+      "order_id": "a45501c5-a3a5-4418-8541-f4b585836c29",
+      "symbol": "XLV",
+      "side": "sell",
+      "filled_qty": 0.742141401,
+      "filled_avg_price": 186.42,
+      "filled_at": "2026-11-09T14:30:00.148028+00:00",
+      "status": "filled",
+      "decision_price": 184.8,
+      "slippage_bps": -87.7
+    },
+    {
+      "order_id": "a751e731-6b75-4b31-b9f1-469dda985d01",
+      "symbol": "XLF",
+      "side": "buy",
+      "filled_qty": 424.441339812,
+      "filled_avg_price": 57.553041,
+      "filled_at": "2026-11-09T14:32:13.507832+00:00",
+      "status": "filled",
+      "decision_price": 57.16,
+      "slippage_bps": 68.8
+    }
+  ],
+  "errors": {}
+}
