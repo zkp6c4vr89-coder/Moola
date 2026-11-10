@@ -1,0 +1,543 @@
+{
+  "date": "2026-11-10",
+  "run_time_utc": "2026-11-10T21:30:57.485611+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "7967acfdb08595879e46b1e38b1b688e6be1b588",
+  "stock_session": true,
+  "account": {
+    "equity": 98580.72,
+    "cash": 7742.61,
+    "last_equity": 98335.16973615644,
+    "buying_power": 285317.16
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "SPY",
+      "qty": 32.84611169,
+      "market_value": 24664.473729,
+      "avg_entry_price": 748.14,
+      "current_price": 750.91,
+      "unrealized_pl": 90.983729,
+      "unrealized_plpc": 0.0037
+    },
+    {
+      "symbol": "XLE",
+      "qty": 295.322331902,
+      "market_value": 18380.921002,
+      "avg_entry_price": 65.977263,
+      "current_price": 62.2402,
+      "unrealized_pl": -1103.63816,
+      "unrealized_plpc": -0.05664
+    },
+    {
+      "symbol": "XLF",
+      "qty": 424.441339812,
+      "market_value": 24752.782276,
+      "avg_entry_price": 57.553041,
+      "current_price": 58.3185,
+      "unrealized_pl": 324.892444,
+      "unrealized_plpc": 0.0133
+    },
+    {
+      "symbol": "XLV",
+      "qty": 121.956043413,
+      "market_value": 23039.935722,
+      "avg_entry_price": 184.919451,
+      "current_price": 188.92,
+      "unrealized_pl": 487.891128,
+      "unrealized_plpc": 0.02163
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 19.92,
+      "us10y": 4.88,
+      "curve_2s10s": 0.32
+    },
+    "crypto_fear_greed": 32,
+    "news": {
+      "SPY": {
+        "count": 48,
+        "sentiment": 0.123,
+        "headlines": [
+          {
+            "headline": "Fed's Bowman Says Fed Does Ongoing Cybersecurity Examinations Of Banks, Have Seen A Great Deal Of Focus On Identifying, Patching Vulnerabilities; Fed Cut Rates Gradually Last Year And Then Paused Before Resuming, In Same Way That We May Work To Address Inflation In Coming Months; Hope And Expect To Finalize Rules On GSIB Surcharge, Basel III In Coming Weeks; Have Shifted Focus To Smaller Bank Rules And Supervisory Approaches",
+            "source": "benzinga",
+            "created_at": "2026-11-10T21:28:03Z",
+            "sentiment": 0.649
+          },
+          {
+            "headline": "Fed\u2019s Bowman Says Would Need To See AI, Middle East Risks Abate Before Could Be Confident Inflation Will Come Down Next Year; I\u2019m Shifting My Focus To Inflation; Open Lines Of Communication With Treasury Are Critically Important; Don't Think AI Will Rob U.S. Economy Of Jobs; AI Will Make Workers More Productive, Create New Jobs, Eliminate Less-Necessary Jobs",
+            "source": "benzinga",
+            "created_at": "2026-11-10T21:15:30Z",
+            "sentiment": 0.357
+          },
+          {
+            "headline": "Semiconductor Rally Defies Nvidia Scandal; Hot CPI; CoreWeave Earnings Ahead",
+            "source": "benzinga",
+            "created_at": "2026-11-10T21:00:21Z",
+            "sentiment": 0.296
+          },
+          {
+            "headline": "Fed Vice Chair Of Supervision Bowman Says Longer-Term Inflation Expectations Very Well Anchored; Inflation Expectations An Important Data Point, But Not Necessarily Controlling How I Think About Things",
+            "source": "benzinga",
+            "created_at": "2026-11-10T21:02:15Z",
+            "sentiment": 0.272
+          },
+          {
+            "headline": "'Thune Wins Another Term as Senate GOP Leader After Midterm Rout' - Bloomberg News",
+            "source": "benzinga",
+            "created_at": "2026-11-10T20:59:12Z",
+            "sentiment": 0.572
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 8,
+        "sentiment": 0.279,
+        "headlines": [
+          {
+            "headline": "Semiconductor Rally Defies Nvidia Scandal; Hot CPI; CoreWeave Earnings Ahead",
+            "source": "benzinga",
+            "created_at": "2026-11-10T21:00:21Z",
+            "sentiment": 0.296
+          },
+          {
+            "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-10T20:00:07Z",
+            "sentiment": 0.202
+          },
+          {
+            "headline": "11 Of 11 Sectors Fall In Tuesday Trading As Leaders Move Together",
+            "source": "benzinga",
+            "created_at": "2026-11-10T16:00:59Z",
+            "sentiment": -0.103
+          },
+          {
+            "headline": "Why Is Bloom Energy Stock Falling on Tuesday?",
+            "source": "benzinga",
+            "created_at": "2026-11-10T14:18:07Z",
+            "sentiment": 0.788
+          },
+          {
+            "headline": "Stock Market Today: Dow Futures Rise, S&P 500 and Nasdaq 100 Futures Fall as Trump Signals Iran War to End \u2018Fairly Soon\u2019 \u2014 CRWV, TTWO, BW In Focus (UPDATED)",
+            "source": "benzinga",
+            "created_at": "2026-11-10T09:56:54Z",
+            "sentiment": 0.34
+          }
+        ]
+      },
+      "IWM": {
+        "count": 2,
+        "sentiment": 0.05,
+        "headlines": [
+          {
+            "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-10T20:00:07Z",
+            "sentiment": 0.202
+          },
+          {
+            "headline": "11 Of 11 Sectors Fall In Tuesday Trading As Leaders Move Together",
+            "source": "benzinga",
+            "created_at": "2026-11-10T16:00:59Z",
+            "sentiment": -0.103
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 3,
+        "sentiment": -0.252,
+        "headlines": [
+          {
+            "headline": "A 50-Basis-Point Fed Hike Was Unthinkable \u2013 After CPI, Economists Can't Rule It Out",
+            "source": "benzinga",
+            "created_at": "2026-11-10T17:05:19Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "US Consumer Prices Rise 0.4% in October, Exceeding Forecasts as Fed Hike Looms (UPDATED)",
+            "source": "benzinga",
+            "created_at": "2026-11-10T14:30:12Z",
+            "sentiment": 0.103
+          },
+          {
+            "headline": "What an Empty Wine Glass Says About the Next Recession",
+            "source": "benzinga",
+            "created_at": "2026-11-10T11:37:29Z",
+            "sentiment": -0.859
+          }
+        ]
+      },
+      "GLD": {
+        "count": 1,
+        "sentiment": 0.103,
+        "headlines": [
+          {
+            "headline": "US Consumer Prices Rise 0.4% in October, Exceeding Forecasts as Fed Hike Looms (UPDATED)",
+            "source": "benzinga",
+            "created_at": "2026-11-10T14:30:12Z",
+            "sentiment": 0.103
+          }
+        ]
+      },
+      "XLK": {
+        "count": 2,
+        "sentiment": 0.05,
+        "headlines": [
+          {
+            "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-10T20:00:07Z",
+            "sentiment": 0.202
+          },
+          {
+            "headline": "11 Of 11 Sectors Fall In Tuesday Trading As Leaders Move Together",
+            "source": "benzinga",
+            "created_at": "2026-11-10T16:00:59Z",
+            "sentiment": -0.103
+          }
+        ]
+      },
+      "XLE": {
+        "count": 2,
+        "sentiment": 0.05,
+        "headlines": [
+          {
+            "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-10T20:00:07Z",
+            "sentiment": 0.202
+          },
+          {
+            "headline": "11 Of 11 Sectors Fall In Tuesday Trading As Leaders Move Together",
+            "source": "benzinga",
+            "created_at": "2026-11-10T16:00:59Z",
+            "sentiment": -0.103
+          }
+        ]
+      },
+      "XLF": {
+        "count": 2,
+        "sentiment": 0.05,
+        "headlines": [
+          {
+            "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-10T20:00:07Z",
+            "sentiment": 0.202
+          },
+          {
+            "headline": "11 Of 11 Sectors Fall In Tuesday Trading As Leaders Move Together",
+            "source": "benzinga",
+            "created_at": "2026-11-10T16:00:59Z",
+            "sentiment": -0.103
+          }
+        ]
+      },
+      "XLV": {
+        "count": 1,
+        "sentiment": -0.103,
+        "headlines": [
+          {
+            "headline": "11 Of 11 Sectors Fall In Tuesday Trading As Leaders Move Together",
+            "source": "benzinga",
+            "created_at": "2026-11-10T16:00:59Z",
+            "sentiment": -0.103
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 18,
+        "sentiment": 0.087,
+        "headlines": [
+          {
+            "headline": "Semiconductor Rally Defies Nvidia Scandal; Hot CPI; CoreWeave Earnings Ahead",
+            "source": "benzinga",
+            "created_at": "2026-11-10T21:00:21Z",
+            "sentiment": 0.296
+          },
+          {
+            "headline": "Hot CPI Pushes 10-Year Yield to 5%, Nvidia Sinks 6%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-10T20:00:07Z",
+            "sentiment": 0.202
+          },
+          {
+            "headline": "Can Bitcoin Hold $70,000 Ahead of 'Nearly Inevitable' December Rate Hike?",
+            "source": "benzinga",
+            "created_at": "2026-11-10T18:45:09Z",
+            "sentiment": 0.329
+          },
+          {
+            "headline": "Bitcoin Drops Below $73,000: A \u2018Break From Precedent,\u2019 Peter Schiff Warns",
+            "source": "benzinga",
+            "created_at": "2026-11-10T17:50:30Z",
+            "sentiment": -0.103
+          },
+          {
+            "headline": "A 50-Basis-Point Fed Hike Was Unthinkable \u2013 After CPI, Economists Can't Rule It Out",
+            "source": "benzinga",
+            "created_at": "2026-11-10T17:05:19Z",
+            "sentiment": 0.0
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 2,
+        "sentiment": 0.093,
+        "headlines": [
+          {
+            "headline": "CPI Inflation Beats Projections, Bitcoin Holds at $74,000 as ETH, XRP Stay Flat",
+            "source": "benzinga",
+            "created_at": "2026-11-10T15:24:32Z",
+            "sentiment": 0.459
+          },
+          {
+            "headline": "Bitcoin, Dogecoin Steady, While Ethereum, XRP Dip: Analyst Calls BTC Accumulation by Major Cohorts During Selloff a 'Bullish Signal'",
+            "source": "benzinga",
+            "created_at": "2026-11-10T02:21:32Z",
+            "sentiment": -0.273
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 104.36,
+      "GLD": 369.36,
+      "IWM": 280.58,
+      "QQQ": 674.76,
+      "SPY": 749.92,
+      "TLT": 80.88,
+      "XLE": 62.21,
+      "XLF": 58.29,
+      "XLK": 168.91,
+      "XLV": 188.88,
+      "BTC/USD": 75261.865,
+      "ETH/USD": 2132.315
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 75261.865,
+      "momentum": 0.067,
+      "sma": 77417.8514,
+      "above_sma": false,
+      "vol": 0.3694
+    },
+    "EFA": {
+      "close": 104.36,
+      "momentum": -0.0051,
+      "sma": 102.6341,
+      "above_sma": true,
+      "vol": 0.1476
+    },
+    "ETH/USD": {
+      "close": 2132.315,
+      "momentum": 0.039,
+      "sma": 2372.1102,
+      "above_sma": false,
+      "vol": 0.4735
+    },
+    "GLD": {
+      "close": 369.36,
+      "momentum": -0.1173,
+      "sma": 410.3719,
+      "above_sma": false,
+      "vol": 0.2507
+    },
+    "IWM": {
+      "close": 280.58,
+      "momentum": -0.0364,
+      "sma": 278.212,
+      "above_sma": true,
+      "vol": 0.1782
+    },
+    "QQQ": {
+      "close": 674.76,
+      "momentum": -0.0553,
+      "sma": 680.3448,
+      "above_sma": false,
+      "vol": 0.2366
+    },
+    "SPY": {
+      "close": 749.92,
+      "momentum": -0.0029,
+      "sma": 728.2968,
+      "above_sma": true,
+      "vol": 0.1467
+    },
+    "TLT": {
+      "close": 80.88,
+      "momentum": -0.0143,
+      "sma": 82.7798,
+      "above_sma": false,
+      "vol": 0.1097
+    },
+    "XLE": {
+      "close": 62.21,
+      "momentum": 0.0601,
+      "sma": 58.7137,
+      "above_sma": true,
+      "vol": 0.2387
+    },
+    "XLF": {
+      "close": 58.29,
+      "momentum": 0.074,
+      "sma": 53.5752,
+      "above_sma": true,
+      "vol": 0.1628
+    },
+    "XLK": {
+      "close": 168.91,
+      "momentum": -0.0691,
+      "sma": 170.1612,
+      "above_sma": false,
+      "vol": 0.3059
+    },
+    "XLV": {
+      "close": 188.88,
+      "momentum": 0.2157,
+      "sma": 158.7615,
+      "above_sma": true,
+      "vol": 0.1917
+    }
+  },
+  "rationale": {
+    "BTC/USD": "out: below moving average",
+    "EFA": "out: negative momentum",
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: negative momentum",
+    "QQQ": "out: below moving average",
+    "SPY": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLK": "out: below moving average",
+    "XLV": "in: momentum rank 1, weight 33.6%",
+    "XLF": "in: momentum rank 2, weight 39.5%",
+    "XLE": "in: momentum rank 3, weight 26.9%"
+  },
+  "raw_targets": {
+    "XLV": 0.3355567195078342,
+    "XLF": 0.3950548581077684,
+    "XLE": 0.2693884223843974
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "XLF": 0.25,
+    "XLE": 0.25
+  },
+  "risk_flags": [
+    "capped XLV from 33.6% to 25%",
+    "capped XLF from 39.5% to 25%",
+    "capped XLE from 26.9% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "notional": 24664.473729,
+      "close_all": true,
+      "decision_price": 749.92,
+      "reason": "exit: no longer a target",
+      "strategy_version": "v1",
+      "order_id": "c4c36c92-cfad-4cd4-aed7-1c28d1f5e9f7",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLF",
+      "side": "sell",
+      "notional": 107.6,
+      "close_all": false,
+      "decision_price": 58.29,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "7c9b39d0-4f6b-4c9e-a333-725688574ee2",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLE",
+      "side": "buy",
+      "notional": 6264.26,
+      "close_all": false,
+      "decision_price": 62.21,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "fe1e107d-c613-49ac-9098-e1b936184c6e",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLV",
+      "side": "buy",
+      "notional": 1605.24,
+      "close_all": false,
+      "decision_price": 188.88,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "9bb993af-0d2b-49ae-8b4d-d5e1b1bf0f0b",
+      "status": "accepted",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "8f78a095-8b3b-481c-99d7-6e5a35d032dd",
+      "symbol": "XLV",
+      "side": "sell",
+      "filled_qty": 10.128232471,
+      "filled_avg_price": 187.55,
+      "filled_at": "2026-11-10T14:31:06.490004+00:00",
+      "status": "filled",
+      "decision_price": 188.33,
+      "slippage_bps": 41.4
+    },
+    {
+      "order_id": "3f47a8ad-3561-4f61-bd1e-2e41750eff8e",
+      "symbol": "XLE",
+      "side": "sell",
+      "filled_qty": 100.516459884,
+      "filled_avg_price": 60.571373,
+      "filled_at": "2026-11-10T14:35:27.385217+00:00",
+      "status": "filled",
+      "decision_price": 61.94,
+      "slippage_bps": 221.0
+    },
+    {
+      "order_id": "c0cc6dc4-ce67-490d-83b5-4f482eaa9507",
+      "symbol": "SPY",
+      "side": "buy",
+      "filled_qty": 32.84611169,
+      "filled_avg_price": 748.14,
+      "filled_at": "2026-11-10T14:30:39.565032+00:00",
+      "status": "filled",
+      "decision_price": 752.69,
+      "slippage_bps": -60.4
+    }
+  ],
+  "errors": {}
+}
