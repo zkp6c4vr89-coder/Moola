@@ -1,0 +1,557 @@
+{
+  "date": "2026-11-11",
+  "run_time_utc": "2026-11-11T21:30:50.108586+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "e643e76b7448e96b029c2ed54cb2c42130cffcfa",
+  "stock_session": true,
+  "account": {
+    "equity": 99388.29,
+    "cash": 24861.14,
+    "last_equity": 98522.13152367713,
+    "buying_power": 308120.58
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "XLE",
+      "qty": 395.087421884,
+      "market_value": 25060.39517,
+      "avg_entry_price": 64.994778,
+      "current_price": 63.43,
+      "unrealized_pl": -618.224106,
+      "unrealized_plpc": -0.02408
+    },
+    {
+      "symbol": "XLF",
+      "qty": 422.589041654,
+      "market_value": 24783.241455,
+      "avg_entry_price": 57.553041,
+      "current_price": 58.6462,
+      "unrealized_pl": 461.957015,
+      "unrealized_plpc": 0.01899
+    },
+    {
+      "symbol": "XLV",
+      "qty": 130.517726702,
+      "market_value": 24683.512474,
+      "avg_entry_price": 185.112863,
+      "current_price": 189.12,
+      "unrealized_pl": 523.002412,
+      "unrealized_plpc": 0.02165
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 19.46,
+      "us10y": 4.88,
+      "curve_2s10s": 0.25
+    },
+    "crypto_fear_greed": 29,
+    "news": {
+      "SPY": {
+        "count": 25,
+        "sentiment": -0.123,
+        "headlines": [
+          {
+            "headline": "'Bessent Moved to Military Housing Following Iranian Threats'- Bloomberg",
+            "source": "benzinga",
+            "created_at": "2026-11-11T21:20:15Z",
+            "sentiment": -0.421
+          },
+          {
+            "headline": "Reported Earlier, 'Trump envoys to meet Putin in Moscow after latest Ukraine talks end with no breakthrough' - CNN",
+            "source": "benzinga",
+            "created_at": "2026-11-11T21:19:18Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "Traders Circulating Headline Iran\u2019s Brigadier General Heydari Says We Have Closed The Strait Of Hormuz And We Will Not Open It Except By The Order Of The Leader Of The Revolution",
+            "source": "benzinga",
+            "created_at": "2026-11-11T20:05:28Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "'Vance Considers Direct Talks With Iran Hardliner in Push to End War' -WSJ Report",
+            "source": "benzinga",
+            "created_at": "2026-11-11T19:27:39Z",
+            "sentiment": -0.599
+          },
+          {
+            "headline": "Nvidia\u2019s Earnings Day Is \u2018Earnings Day for Your 401(k).\u2019 Here\u2019s Why",
+            "source": "benzinga",
+            "created_at": "2026-11-11T18:26:29Z",
+            "sentiment": 0.026
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 10,
+        "sentiment": 0.179,
+        "headlines": [
+          {
+            "headline": "Anthropic Perp Rallies 8%: Traders Price the Claude Maker at $1.8 Trillion",
+            "source": "benzinga",
+            "created_at": "2026-11-11T20:03:00Z",
+            "sentiment": -0.128
+          },
+          {
+            "headline": "CNBC Halftime Report Final Trades: Walt Disney, Monolithic Power Systems, Amphenol, Invesco QQQ Trust, Series 1",
+            "source": "benzinga",
+            "created_at": "2026-11-11T18:01:13Z",
+            "sentiment": 0.511
+          },
+          {
+            "headline": "Is CoreWeave's Rally Durable? Nvidia Stock Can Fall 25% If Huang Leaves",
+            "source": "benzinga",
+            "created_at": "2026-11-11T17:53:29Z",
+            "sentiment": 0.318
+          },
+          {
+            "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-11T17:53:02Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-11T16:00:22Z",
+            "sentiment": 0.459
+          }
+        ]
+      },
+      "IWM": {
+        "count": 2,
+        "sentiment": 0.229,
+        "headlines": [
+          {
+            "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-11T17:53:02Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-11T16:00:22Z",
+            "sentiment": 0.459
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 2,
+        "sentiment": -0.462,
+        "headlines": [
+          {
+            "headline": "\u2018Fed Is Fighting the Wrong Inflation\u2019: Strategist Warns Kevin Warsh Against \u2018Reckless\u2019 50-Basis-Point Rate Hike After Hotter-Than-Expected October CPI",
+            "source": "benzinga",
+            "created_at": "2026-11-11T09:43:35Z",
+            "sentiment": -0.772
+          },
+          {
+            "headline": "Fed May Be Falling Behind on Inflation, Bank of America Says, Opening the Door to a Half-Point Hike",
+            "source": "benzinga",
+            "created_at": "2026-11-10T21:39:59Z",
+            "sentiment": -0.153
+          }
+        ]
+      },
+      "GLD": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLK": {
+        "count": 5,
+        "sentiment": 0.291,
+        "headlines": [
+          {
+            "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-11T17:53:02Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Why Is CleanSpark Stock Surging on Wednesday?",
+            "source": "benzinga",
+            "created_at": "2026-11-11T17:50:04Z",
+            "sentiment": 0.511
+          },
+          {
+            "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-11T16:00:22Z",
+            "sentiment": 0.459
+          },
+          {
+            "headline": "Tech Stocks Add Over $500 Billion as CoreWeave's Blockbuster Results Rescue AI Rally",
+            "source": "benzinga",
+            "created_at": "2026-11-11T16:00:14Z",
+            "sentiment": 0.802
+          },
+          {
+            "headline": "Retail Pours Billions Into ETFs As Hedge Funds Go Underweight AI",
+            "source": "benzinga",
+            "created_at": "2026-11-11T12:46:58Z",
+            "sentiment": -0.318
+          }
+        ]
+      },
+      "XLE": {
+        "count": 1,
+        "sentiment": 0.459,
+        "headlines": [
+          {
+            "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-11T16:00:22Z",
+            "sentiment": 0.459
+          }
+        ]
+      },
+      "XLF": {
+        "count": 1,
+        "sentiment": 0.459,
+        "headlines": [
+          {
+            "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-11T16:00:22Z",
+            "sentiment": 0.459
+          }
+        ]
+      },
+      "XLV": {
+        "count": 2,
+        "sentiment": 0.229,
+        "headlines": [
+          {
+            "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-11T17:53:02Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Cyclicals Lead Sectors In Wednesday Trading As Defensives Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-11T16:00:22Z",
+            "sentiment": 0.459
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 17,
+        "sentiment": -0.154,
+        "headlines": [
+          {
+            "headline": "Bitwise's Matt Hougan Says 'Demographics' Trump Election's Impact on Crypto",
+            "source": "benzinga",
+            "created_at": "2026-11-11T19:00:11Z",
+            "sentiment": 0.788
+          },
+          {
+            "headline": "Ex-Ripple Exec Hasn't Bought XRP 'in a Long Time,' Also Sold Bitcoin, ETH",
+            "source": "benzinga",
+            "created_at": "2026-11-11T18:41:48Z",
+            "sentiment": -0.542
+          },
+          {
+            "headline": "Is CoreWeave's Rally Durable? Nvidia Stock Can Fall 25% If Huang Leaves",
+            "source": "benzinga",
+            "created_at": "2026-11-11T17:53:29Z",
+            "sentiment": 0.318
+          },
+          {
+            "headline": "Nasdaq 100 Jumps 2.8% as CoreWeave, Nvidia Climb: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-11T17:53:02Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Could Bitcoin Lose $73,000 as Demand Weakens? The Data Says It Might",
+            "source": "benzinga",
+            "created_at": "2026-11-11T16:00:11Z",
+            "sentiment": -0.886
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 4,
+        "sentiment": -0.166,
+        "headlines": [
+          {
+            "headline": "Ex-Ripple Exec Hasn't Bought XRP 'in a Long Time,' Also Sold Bitcoin, ETH",
+            "source": "benzinga",
+            "created_at": "2026-11-11T18:41:48Z",
+            "sentiment": -0.542
+          },
+          {
+            "headline": "Bitcoin, Ethereum, XRP, Dogecoin Drop as Investors Weigh Rate Hike Odds: Analyst Explains Why \u2018Horrific\u2019 BTC Chart Is Routine in a Bull Market",
+            "source": "benzinga",
+            "created_at": "2026-11-11T01:47:04Z",
+            "sentiment": -0.273
+          },
+          {
+            "headline": "The Musk Midterms Trade: SPCX Flat, TSLA Drops 5% but DOGE Plunges 7%",
+            "source": "benzinga",
+            "created_at": "2026-11-10T23:10:07Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Bitcoin 'Needs Buyers to Come Back' After CPI Data Triggers Slide to $73,000",
+            "source": "benzinga",
+            "created_at": "2026-11-10T22:02:06Z",
+            "sentiment": 0.153
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 104.66,
+      "GLD": 365.17,
+      "IWM": 283.09,
+      "QQQ": 690.38,
+      "SPY": 759.81,
+      "TLT": 80.92,
+      "XLE": 63.37,
+      "XLF": 58.63,
+      "XLK": 174.36,
+      "XLV": 188.95,
+      "BTC/USD": 73698.0125,
+      "ETH/USD": 2050.438
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 73698.0125,
+      "momentum": 0.0356,
+      "sma": 77519.7183,
+      "above_sma": false,
+      "vol": 0.3721
+    },
+    "EFA": {
+      "close": 104.66,
+      "momentum": -0.0066,
+      "sma": 102.6549,
+      "above_sma": true,
+      "vol": 0.1462
+    },
+    "ETH/USD": {
+      "close": 2050.438,
+      "momentum": -0.0048,
+      "sma": 2373.7816,
+      "above_sma": false,
+      "vol": 0.4742
+    },
+    "GLD": {
+      "close": 365.17,
+      "momentum": -0.1182,
+      "sma": 409.8173,
+      "above_sma": false,
+      "vol": 0.2495
+    },
+    "IWM": {
+      "close": 283.09,
+      "momentum": -0.0292,
+      "sma": 278.3127,
+      "above_sma": true,
+      "vol": 0.1778
+    },
+    "QQQ": {
+      "close": 690.38,
+      "momentum": -0.044,
+      "sma": 680.6517,
+      "above_sma": true,
+      "vol": 0.2393
+    },
+    "SPY": {
+      "close": 759.81,
+      "momentum": 0.004,
+      "sma": 728.6455,
+      "above_sma": true,
+      "vol": 0.1487
+    },
+    "TLT": {
+      "close": 80.92,
+      "momentum": -0.0156,
+      "sma": 82.7619,
+      "above_sma": false,
+      "vol": 0.1094
+    },
+    "XLE": {
+      "close": 63.37,
+      "momentum": 0.079,
+      "sma": 58.7871,
+      "above_sma": true,
+      "vol": 0.2391
+    },
+    "XLF": {
+      "close": 58.63,
+      "momentum": 0.0839,
+      "sma": 53.6066,
+      "above_sma": true,
+      "vol": 0.163
+    },
+    "XLK": {
+      "close": 174.36,
+      "momentum": -0.0483,
+      "sma": 170.2953,
+      "above_sma": true,
+      "vol": 0.3097
+    },
+    "XLV": {
+      "close": 188.95,
+      "momentum": 0.2125,
+      "sma": 158.9385,
+      "above_sma": true,
+      "vol": 0.1896
+    }
+  },
+  "rationale": {
+    "BTC/USD": "out: below moving average",
+    "EFA": "out: negative momentum",
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: negative momentum",
+    "QQQ": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLK": "out: negative momentum",
+    "XLV": "in: momentum rank 1, weight 23.6%",
+    "XLF": "in: momentum rank 2, weight 27.5%",
+    "XLE": "in: momentum rank 3, weight 18.7%",
+    "SPY": "in: momentum rank 4, weight 30.1%"
+  },
+  "raw_targets": {
+    "XLV": 0.23633995032792668,
+    "XLF": 0.2749052170386251,
+    "XLE": 0.18737331097133175,
+    "SPY": 0.30138152166211646
+  },
+  "final_targets": {
+    "XLV": 0.23633995032792668,
+    "XLF": 0.25,
+    "XLE": 0.18737331097133175,
+    "SPY": 0.25
+  },
+  "risk_flags": [
+    "capped XLF from 27.5% to 25%",
+    "capped SPY from 30.1% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "XLE",
+      "side": "sell",
+      "notional": 6437.68,
+      "close_all": false,
+      "decision_price": 63.37,
+      "reason": "rebalance to 18.7%",
+      "strategy_version": "v1",
+      "order_id": "d597f802-d12b-4b9b-b3b8-ba8bc942f087",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLV",
+      "side": "sell",
+      "notional": 1194.09,
+      "close_all": false,
+      "decision_price": 188.95,
+      "reason": "rebalance to 23.6%",
+      "strategy_version": "v1",
+      "order_id": "1f6e41e2-75e1-426f-8cd1-b710333e8db0",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "SPY",
+      "side": "buy",
+      "notional": 24847.07,
+      "close_all": false,
+      "decision_price": 759.81,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "c986c021-7b8e-40f0-a3aa-f41df4f238b1",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLF",
+      "side": "buy",
+      "notional": 63.83,
+      "close_all": false,
+      "decision_price": 58.63,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "9101176c-b5d0-4e79-ab52-11de5c194e6f",
+      "status": "accepted",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "7c9b39d0-4f6b-4c9e-a333-725688574ee2",
+      "symbol": "XLF",
+      "side": "sell",
+      "filled_qty": 1.852298158,
+      "filled_avg_price": 58.09,
+      "filled_at": "2026-11-11T14:30:00.055846+00:00",
+      "status": "filled",
+      "decision_price": 58.29,
+      "slippage_bps": 34.3
+    },
+    {
+      "order_id": "c4c36c92-cfad-4cd4-aed7-1c28d1f5e9f7",
+      "symbol": "SPY",
+      "side": "sell",
+      "filled_qty": 32.84611169,
+      "filled_avg_price": 757.489556,
+      "filled_at": "2026-11-11T14:34:30.024452+00:00",
+      "status": "filled",
+      "decision_price": 749.92,
+      "slippage_bps": -100.9
+    },
+    {
+      "order_id": "9bb993af-0d2b-49ae-8b4d-d5e1b1bf0f0b",
+      "symbol": "XLV",
+      "side": "buy",
+      "filled_qty": 8.561683289,
+      "filled_avg_price": 187.49,
+      "filled_at": "2026-11-11T14:30:57.507810+00:00",
+      "status": "filled",
+      "decision_price": 188.88,
+      "slippage_bps": -73.6
+    },
+    {
+      "order_id": "fe1e107d-c613-49ac-9098-e1b936184c6e",
+      "symbol": "XLE",
+      "side": "buy",
+      "filled_qty": 99.765089982,
+      "filled_avg_price": 62.79,
+      "filled_at": "2026-11-11T14:31:08.445651+00:00",
+      "status": "filled",
+      "decision_price": 62.21,
+      "slippage_bps": 93.2
+    }
+  ],
+  "errors": {}
+}
