@@ -28,3 +28,7 @@ date,symbol,side,notional,close_all,decision_price,reason,strategy_version,order
 2026-11-11,XLV,sell,1194.09,False,188.95,rebalance to 23.6%,v1,1f6e41e2-75e1-426f-8cd1-b710333e8db0,accepted,
 2026-11-11,SPY,buy,24847.07,False,759.81,rebalance to 25.0%,v1,c986c021-7b8e-40f0-a3aa-f41df4f238b1,accepted,
 2026-11-11,XLF,buy,63.83,False,58.63,rebalance to 25.0%,v1,9101176c-b5d0-4e79-ab52-11de5c194e6f,accepted,
+2026-11-12,SPY,sell,24949.85519,True,757.12,exit: no longer a target,v1,945a8f26-4952-4249-a44d-bca43e6f7cdf,accepted,
+2026-11-12,XLE,buy,5944.17,False,64.33,rebalance to 25.0%,v1,776e15b7-600b-4e49-9a0c-cf0d154e4fb0,accepted,
+2026-11-12,XLV,buy,1549.98,False,187.83,rebalance to 25.0%,v1,92441e2b-5e3e-4136-b720-36c5eb700090,accepted,
+2026-11-12,XLF,buy,172.77,False,58.21,rebalance to 25.0%,v1,92cd5405-843d-4237-b23e-f0e1600a38e8,accepted,

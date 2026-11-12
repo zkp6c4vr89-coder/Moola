@@ -1,0 +1,535 @@
+{
+  "date": "2026-11-12",
+  "run_time_utc": "2026-11-12T21:30:55.836407+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "478bc1f11888785ca00fcb6f5dfedaba8783311d",
+  "stock_session": true,
+  "account": {
+    "equity": 99457.71,
+    "cash": 7581.48,
+    "last_equity": 99335.019897306,
+    "buying_power": 287579.36
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "SPY",
+      "qty": 32.918850525,
+      "market_value": 24949.85519,
+      "avg_entry_price": 754.797316,
+      "current_price": 757.92,
+      "unrealized_pl": 102.795168,
+      "unrealized_plpc": 0.00414
+    },
+    {
+      "symbol": "XLE",
+      "qty": 293.929816605,
+      "market_value": 18920.262295,
+      "avg_entry_price": 64.994778,
+      "current_price": 64.37,
+      "unrealized_pl": -183.640883,
+      "unrealized_plpc": -0.00961
+    },
+    {
+      "symbol": "XLF",
+      "qty": 423.67294111,
+      "market_value": 24691.659008,
+      "avg_entry_price": 57.55645,
+      "current_price": 58.28,
+      "unrealized_pl": 306.548557,
+      "unrealized_plpc": 0.01257
+    },
+    {
+      "symbol": "XLV",
+      "qty": 124.231109876,
+      "market_value": 23314.45239,
+      "avg_entry_price": 185.112863,
+      "current_price": 187.67,
+      "unrealized_pl": 317.675967,
+      "unrealized_plpc": 0.01381
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 17.49,
+      "us10y": 4.98,
+      "curve_2s10s": 0.25
+    },
+    "crypto_fear_greed": 28,
+    "news": {
+      "SPY": {
+        "count": 43,
+        "sentiment": 0.009,
+        "headlines": [
+          {
+            "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:52:08Z",
+            "sentiment": -0.477
+          },
+          {
+            "headline": "Fed's Daly Says We Are In A Perfect Storm For Hiring",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:52:35Z",
+            "sentiment": 0.572
+          },
+          {
+            "headline": "Fed's Daly Says We Have Many Many Quarters To Make Policy Decisions",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:42:37Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Kansas City Fed\u2019s Schmid Does Not Comment On Monetary Policy Or Economic Outlook In Remarks On Housing Costs; Says Materials And Labor Costs May Worsen Housing Affordability",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:32:30Z",
+            "sentiment": -0.511
+          },
+          {
+            "headline": "Fed\u2019s Daly Says AI Pipeline Is Deep, So Continues Even If It Slows; Says Economy Being Driven By Technology Boom; Says No Doubt Of AI-Fueled Price Pressures",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:21:39Z",
+            "sentiment": -0.049
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 10,
+        "sentiment": -0.221,
+        "headlines": [
+          {
+            "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:52:08Z",
+            "sentiment": -0.477
+          },
+          {
+            "headline": "Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:16:23Z",
+            "sentiment": 0.385
+          },
+          {
+            "headline": "Nvidia ETFs Have a New Problem: Life After Jensen Huang",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:06:45Z",
+            "sentiment": -0.694
+          },
+          {
+            "headline": "Why Is IREN Stock Falling on Thursday?",
+            "source": "benzinga",
+            "created_at": "2026-11-12T16:20:54Z",
+            "sentiment": -0.765
+          },
+          {
+            "headline": "Energy Leads Sectors In Thursday Trading As Materials Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-12T16:00:25Z",
+            "sentiment": 0.802
+          }
+        ]
+      },
+      "IWM": {
+        "count": 2,
+        "sentiment": 0.593,
+        "headlines": [
+          {
+            "headline": "Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:16:23Z",
+            "sentiment": 0.385
+          },
+          {
+            "headline": "Energy Leads Sectors In Thursday Trading As Materials Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-12T16:00:25Z",
+            "sentiment": 0.802
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "GLD": {
+        "count": 2,
+        "sentiment": 0.165,
+        "headlines": [
+          {
+            "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:52:08Z",
+            "sentiment": -0.477
+          },
+          {
+            "headline": "Gold Stocks Dip: What's Going On?",
+            "source": "benzinga",
+            "created_at": "2026-11-12T17:34:10Z",
+            "sentiment": 0.807
+          }
+        ]
+      },
+      "XLK": {
+        "count": 1,
+        "sentiment": 0.802,
+        "headlines": [
+          {
+            "headline": "Energy Leads Sectors In Thursday Trading As Materials Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-12T16:00:25Z",
+            "sentiment": 0.802
+          }
+        ]
+      },
+      "XLE": {
+        "count": 3,
+        "sentiment": 0.141,
+        "headlines": [
+          {
+            "headline": "Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:16:23Z",
+            "sentiment": 0.385
+          },
+          {
+            "headline": "Why Is IREN Stock Falling on Thursday?",
+            "source": "benzinga",
+            "created_at": "2026-11-12T16:20:54Z",
+            "sentiment": -0.765
+          },
+          {
+            "headline": "Energy Leads Sectors In Thursday Trading As Materials Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-12T16:00:25Z",
+            "sentiment": 0.802
+          }
+        ]
+      },
+      "XLF": {
+        "count": 1,
+        "sentiment": 0.802,
+        "headlines": [
+          {
+            "headline": "Energy Leads Sectors In Thursday Trading As Materials Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-12T16:00:25Z",
+            "sentiment": 0.802
+          }
+        ]
+      },
+      "XLV": {
+        "count": 1,
+        "sentiment": 0.802,
+        "headlines": [
+          {
+            "headline": "Energy Leads Sectors In Thursday Trading As Materials Trail",
+            "source": "benzinga",
+            "created_at": "2026-11-12T16:00:25Z",
+            "sentiment": 0.802
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 16,
+        "sentiment": 0.083,
+        "headlines": [
+          {
+            "headline": "Would a Tesla\u2013SpaceX Merger Be Bullish for Bitcoin? Careful What You Wish For",
+            "source": "benzinga",
+            "created_at": "2026-11-12T21:00:06Z",
+            "sentiment": -0.003
+          },
+          {
+            "headline": "Why Is Bitcoin's Decline Accelerating? Mark Yusko Weighs In",
+            "source": "benzinga",
+            "created_at": "2026-11-12T20:22:20Z",
+            "sentiment": -0.238
+          },
+          {
+            "headline": "Nvidia Crisis \u2013 Visionary Huang\u2019s Resignation Puts America's AI Advantage at Risk; Gold Falls Below $4000",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:52:08Z",
+            "sentiment": -0.477
+          },
+          {
+            "headline": "Bitcoin Slumps to $72,000: Blame the 'Known Unknowns,' Says Schwab Analyst",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:22:11Z",
+            "sentiment": -0.361
+          },
+          {
+            "headline": "Nasdaq 100 Turns Green Despite Nvidia's 5% Drop on Huang Exit: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-12T18:16:23Z",
+            "sentiment": 0.385
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 2,
+        "sentiment": -0.531,
+        "headlines": [
+          {
+            "headline": "Short Seller Flagged Nvidia China Worries Months Ago: Here\u2019s How Much Stock Has Fallen Since",
+            "source": "benzinga",
+            "created_at": "2026-11-12T20:40:06Z",
+            "sentiment": -0.67
+          },
+          {
+            "headline": "Bitcoin, Ethereum, XRP Steady, but Dogecoin Dips: Analyst Bets a Repeat of BTC's Short Squeeze, Driving It Toward $90,000",
+            "source": "benzinga",
+            "created_at": "2026-11-12T01:53:13Z",
+            "sentiment": -0.392
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 104.01,
+      "GLD": 354.89,
+      "IWM": 278.44,
+      "QQQ": 688.17,
+      "SPY": 757.12,
+      "TLT": 79.72,
+      "XLE": 64.33,
+      "XLF": 58.21,
+      "XLK": 173.77,
+      "XLV": 187.83,
+      "BTC/USD": 73929.379,
+      "ETH/USD": 2053.98
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 73929.379,
+      "momentum": 0.0503,
+      "sma": 77624.4697,
+      "above_sma": false,
+      "vol": 0.3722
+    },
+    "EFA": {
+      "close": 104.01,
+      "momentum": -0.0107,
+      "sma": 102.6777,
+      "above_sma": true,
+      "vol": 0.1464
+    },
+    "ETH/USD": {
+      "close": 2053.98,
+      "momentum": 0.0069,
+      "sma": 2375.7376,
+      "above_sma": false,
+      "vol": 0.4741
+    },
+    "GLD": {
+      "close": 354.89,
+      "momentum": -0.1427,
+      "sma": 409.1189,
+      "above_sma": false,
+      "vol": 0.242
+    },
+    "IWM": {
+      "close": 278.44,
+      "momentum": -0.0506,
+      "sma": 278.3973,
+      "above_sma": true,
+      "vol": 0.1802
+    },
+    "QQQ": {
+      "close": 688.17,
+      "momentum": -0.0498,
+      "sma": 680.9372,
+      "above_sma": true,
+      "vol": 0.2394
+    },
+    "SPY": {
+      "close": 757.12,
+      "momentum": -0.0026,
+      "sma": 728.9811,
+      "above_sma": true,
+      "vol": 0.1487
+    },
+    "TLT": {
+      "close": 79.72,
+      "momentum": -0.0276,
+      "sma": 82.7391,
+      "above_sma": false,
+      "vol": 0.1082
+    },
+    "XLE": {
+      "close": 64.33,
+      "momentum": 0.0839,
+      "sma": 58.8633,
+      "above_sma": true,
+      "vol": 0.241
+    },
+    "XLF": {
+      "close": 58.21,
+      "momentum": 0.0736,
+      "sma": 53.6359,
+      "above_sma": true,
+      "vol": 0.1631
+    },
+    "XLK": {
+      "close": 173.77,
+      "momentum": -0.057,
+      "sma": 170.4207,
+      "above_sma": true,
+      "vol": 0.3091
+    },
+    "XLV": {
+      "close": 187.83,
+      "momentum": 0.2091,
+      "sma": 159.1156,
+      "above_sma": true,
+      "vol": 0.1778
+    }
+  },
+  "rationale": {
+    "BTC/USD": "out: below moving average",
+    "EFA": "out: negative momentum",
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: negative momentum",
+    "QQQ": "out: negative momentum",
+    "SPY": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLK": "out: negative momentum",
+    "XLV": "in: momentum rank 1, weight 35.4%",
+    "XLE": "in: momentum rank 2, weight 26.1%",
+    "XLF": "in: momentum rank 3, weight 38.5%"
+  },
+  "raw_targets": {
+    "XLV": 0.3536805504872255,
+    "XLE": 0.2608901487220988,
+    "XLF": 0.3854293007906757
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "XLE": 0.25,
+    "XLF": 0.25
+  },
+  "risk_flags": [
+    "capped XLV from 35.4% to 25%",
+    "capped XLE from 26.1% to 25%",
+    "capped XLF from 38.5% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "notional": 24949.85519,
+      "close_all": true,
+      "decision_price": 757.12,
+      "reason": "exit: no longer a target",
+      "strategy_version": "v1",
+      "order_id": "945a8f26-4952-4249-a44d-bca43e6f7cdf",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLE",
+      "side": "buy",
+      "notional": 5944.17,
+      "close_all": false,
+      "decision_price": 64.33,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "776e15b7-600b-4e49-9a0c-cf0d154e4fb0",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLV",
+      "side": "buy",
+      "notional": 1549.98,
+      "close_all": false,
+      "decision_price": 187.83,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "92441e2b-5e3e-4136-b720-36c5eb700090",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLF",
+      "side": "buy",
+      "notional": 172.77,
+      "close_all": false,
+      "decision_price": 58.21,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "92cd5405-843d-4237-b23e-f0e1600a38e8",
+      "status": "accepted",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "9101176c-b5d0-4e79-ab52-11de5c194e6f",
+      "symbol": "XLF",
+      "side": "buy",
+      "filled_qty": 1.083899456,
+      "filled_avg_price": 58.88,
+      "filled_at": "2026-11-12T14:30:00.045378+00:00",
+      "status": "filled",
+      "decision_price": 58.63,
+      "slippage_bps": 42.6
+    },
+    {
+      "order_id": "c986c021-7b8e-40f0-a3aa-f41df4f238b1",
+      "symbol": "SPY",
+      "side": "buy",
+      "filled_qty": 32.918850525,
+      "filled_avg_price": 754.797316,
+      "filled_at": "2026-11-12T14:34:03.890908+00:00",
+      "status": "filled",
+      "decision_price": 759.81,
+      "slippage_bps": -66.0
+    },
+    {
+      "order_id": "1f6e41e2-75e1-426f-8cd1-b710333e8db0",
+      "symbol": "XLV",
+      "side": "sell",
+      "filled_qty": 6.286616826,
+      "filled_avg_price": 189.94,
+      "filled_at": "2026-11-12T14:30:36.559660+00:00",
+      "status": "filled",
+      "decision_price": 188.95,
+      "slippage_bps": -52.4
+    },
+    {
+      "order_id": "d597f802-d12b-4b9b-b3b8-ba8bc942f087",
+      "symbol": "XLE",
+      "side": "sell",
+      "filled_qty": 101.157605279,
+      "filled_avg_price": 63.64,
+      "filled_at": "2026-11-12T14:30:55.844407+00:00",
+      "status": "filled",
+      "decision_price": 63.37,
+      "slippage_bps": -42.6
+    }
+  ],
+  "errors": {}
+}
