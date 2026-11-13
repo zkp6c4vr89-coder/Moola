@@ -1,0 +1,522 @@
+{
+  "date": "2026-11-13",
+  "run_time_utc": "2026-11-13T21:30:55.590897+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "4a2f0d0a90287a67ac34aec30798f54b47b4ce19",
+  "stock_session": true,
+  "account": {
+    "equity": 99954.82,
+    "cash": 24921.88,
+    "last_equity": 99409.66648170984,
+    "buying_power": 309779.75
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "XLE",
+      "qty": 385.576929911,
+      "market_value": 25047.077367,
+      "avg_entry_price": 64.44585,
+      "current_price": 64.96,
+      "unrealized_pl": 198.244378,
+      "unrealized_plpc": 0.00798
+    },
+    {
+      "symbol": "XLF",
+      "qty": 426.621063976,
+      "market_value": 24978.663296,
+      "avg_entry_price": 57.563661,
+      "current_price": 58.55,
+      "unrealized_pl": 420.792994,
+      "unrealized_plpc": 0.01713
+    },
+    {
+      "symbol": "XLV",
+      "qty": 132.453373385,
+      "market_value": 25007.196895,
+      "avg_entry_price": 185.337042,
+      "current_price": 188.8,
+      "unrealized_pl": 458.680469,
+      "unrealized_plpc": 0.01868
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 18.7,
+      "us10y": 5.1,
+      "curve_2s10s": 0.24
+    },
+    "crypto_fear_greed": 20,
+    "news": {
+      "SPY": {
+        "count": 42,
+        "sentiment": 0.006,
+        "headlines": [
+          {
+            "headline": "'Trump will have historic meeting with Xi, Putin in China to talk nuclear arms control' - NY Post",
+            "source": "benzinga",
+            "created_at": "2026-11-13T21:21:29Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "'FAA confirms nationwide ground stop due to widespread ATC frequency issues' - The Air Current",
+            "source": "benzinga",
+            "created_at": "2026-11-13T21:19:20Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "Federal Aviation Administration Issues National Ground Stop, Citing 'Extraordinary Circumstances'",
+            "source": "benzinga",
+            "created_at": "2026-11-13T21:01:37Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "'Hassett Denies Report He\u2019s Leaving White House: \u2018Not True'- CNBC",
+            "source": "benzinga",
+            "created_at": "2026-11-13T19:46:27Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "'Hassett expected to depart White House'- Semafor",
+            "source": "benzinga",
+            "created_at": "2026-11-13T19:13:01Z",
+            "sentiment": 0.0
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 10,
+        "sentiment": -0.082,
+        "headlines": [
+          {
+            "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-13T18:41:08Z",
+            "sentiment": -0.637
+          },
+          {
+            "headline": "Why Is IREN Stock Falling on Friday?",
+            "source": "benzinga",
+            "created_at": "2026-11-13T18:19:49Z",
+            "sentiment": -0.44
+          },
+          {
+            "headline": "AMD Benefits From Nvidia's Troubles, Smart Money Sells Nvidia; Cooler PPI; Bitcoin Below $70K",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:28:33Z",
+            "sentiment": 0.823
+          },
+          {
+            "headline": "Michael Burry Says WSJ Missed the Real Nvidia Story",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:14:21Z",
+            "sentiment": -0.67
+          },
+          {
+            "headline": "Consumer Staples Leads Sectors As Technology Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:00:18Z",
+            "sentiment": 0.718
+          }
+        ]
+      },
+      "IWM": {
+        "count": 2,
+        "sentiment": 0.041,
+        "headlines": [
+          {
+            "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-13T18:41:08Z",
+            "sentiment": -0.637
+          },
+          {
+            "headline": "Consumer Staples Leads Sectors As Technology Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:00:18Z",
+            "sentiment": 0.718
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "GLD": {
+        "count": 1,
+        "sentiment": 0.823,
+        "headlines": [
+          {
+            "headline": "AMD Benefits From Nvidia's Troubles, Smart Money Sells Nvidia; Cooler PPI; Bitcoin Below $70K",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:28:33Z",
+            "sentiment": 0.823
+          }
+        ]
+      },
+      "XLK": {
+        "count": 3,
+        "sentiment": -0.105,
+        "headlines": [
+          {
+            "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-13T18:41:08Z",
+            "sentiment": -0.637
+          },
+          {
+            "headline": "Consumer Staples Leads Sectors As Technology Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:00:18Z",
+            "sentiment": 0.718
+          },
+          {
+            "headline": "11 AI Stocks to Buy on Dips: 'Don't Waste a Good Sell-Off,' Analyst Says",
+            "source": "benzinga",
+            "created_at": "2026-11-13T14:07:17Z",
+            "sentiment": -0.397
+          }
+        ]
+      },
+      "XLE": {
+        "count": 1,
+        "sentiment": 0.718,
+        "headlines": [
+          {
+            "headline": "Consumer Staples Leads Sectors As Technology Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:00:18Z",
+            "sentiment": 0.718
+          }
+        ]
+      },
+      "XLF": {
+        "count": 1,
+        "sentiment": 0.718,
+        "headlines": [
+          {
+            "headline": "Consumer Staples Leads Sectors As Technology Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:00:18Z",
+            "sentiment": 0.718
+          }
+        ]
+      },
+      "XLV": {
+        "count": 2,
+        "sentiment": 0.161,
+        "headlines": [
+          {
+            "headline": "Consumer Staples Leads Sectors As Technology Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:00:18Z",
+            "sentiment": 0.718
+          },
+          {
+            "headline": "11 AI Stocks to Buy on Dips: 'Don't Waste a Good Sell-Off,' Analyst Says",
+            "source": "benzinga",
+            "created_at": "2026-11-13T14:07:17Z",
+            "sentiment": -0.397
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 20,
+        "sentiment": -0.224,
+        "headlines": [
+          {
+            "headline": "Nvidia Loses Its Founder, AMD and Broadcom Take the Crown: This Week on Wall Street",
+            "source": "benzinga",
+            "created_at": "2026-11-13T21:17:32Z",
+            "sentiment": 0.052
+          },
+          {
+            "headline": "Will Bitcoin Finish a Second Straight Year Down for the First Time Ever?",
+            "source": "benzinga",
+            "created_at": "2026-11-13T21:00:53Z",
+            "sentiment": -0.09
+          },
+          {
+            "headline": "Strive's Bitcoin Strategy That 'Could Even Survive an 80% Crash'",
+            "source": "benzinga",
+            "created_at": "2026-11-13T20:45:46Z",
+            "sentiment": -0.66
+          },
+          {
+            "headline": "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7%: Stock Market Today",
+            "source": "benzinga",
+            "created_at": "2026-11-13T18:41:08Z",
+            "sentiment": -0.637
+          },
+          {
+            "headline": "Why Is IREN Stock Falling on Friday?",
+            "source": "benzinga",
+            "created_at": "2026-11-13T18:19:49Z",
+            "sentiment": -0.44
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 7,
+        "sentiment": -0.327,
+        "headlines": [
+          {
+            "headline": "Shiba Inu Risks Another Drop as Burns Fall 38%: What's Going On?",
+            "source": "benzinga",
+            "created_at": "2026-11-13T18:55:25Z",
+            "sentiment": -0.7
+          },
+          {
+            "headline": "Bitcoin ETFs Face $1B Exodus As Ethereum, Solana Funds Bleed: Is Institutional Crypto Demand Cracking?",
+            "source": "benzinga",
+            "created_at": "2026-11-13T17:40:08Z",
+            "sentiment": -0.421
+          },
+          {
+            "headline": "Bitcoin to $1 Million by 2030? 'Almost Certainly Not,' Industry Bigwig Says",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:45:10Z",
+            "sentiment": 0.477
+          },
+          {
+            "headline": "What's Going on With Bitmine Immersion Stock on Friday?",
+            "source": "benzinga",
+            "created_at": "2026-11-13T16:15:15Z",
+            "sentiment": -0.751
+          },
+          {
+            "headline": "Bitcoin Implodes to $69,000, Ethereum, XRP Down on ETF Outflows, Nvidia Turmoil",
+            "source": "benzinga",
+            "created_at": "2026-11-13T12:41:41Z",
+            "sentiment": -0.791
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 104.17,
+      "GLD": 355.45,
+      "IWM": 277.54,
+      "QQQ": 679.89,
+      "SPY": 754.37,
+      "TLT": 79.38,
+      "XLE": 64.96,
+      "XLF": 58.68,
+      "XLK": 170.28,
+      "XLV": 188.85,
+      "BTC/USD": 71372.674,
+      "ETH/USD": 2017.405
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 71372.674,
+      "momentum": 0.0235,
+      "sma": 77697.5686,
+      "above_sma": false,
+      "vol": 0.3815
+    },
+    "EFA": {
+      "close": 104.17,
+      "momentum": 0.0004,
+      "sma": 102.698,
+      "above_sma": true,
+      "vol": 0.1464
+    },
+    "ETH/USD": {
+      "close": 2017.405,
+      "momentum": -0.0007,
+      "sma": 2377.2355,
+      "above_sma": false,
+      "vol": 0.4738
+    },
+    "GLD": {
+      "close": 355.45,
+      "momentum": -0.1358,
+      "sma": 408.4167,
+      "above_sma": false,
+      "vol": 0.2419
+    },
+    "IWM": {
+      "close": 277.54,
+      "momentum": -0.04,
+      "sma": 278.4771,
+      "above_sma": false,
+      "vol": 0.1785
+    },
+    "QQQ": {
+      "close": 679.89,
+      "momentum": -0.0532,
+      "sma": 681.2002,
+      "above_sma": false,
+      "vol": 0.2401
+    },
+    "SPY": {
+      "close": 754.37,
+      "momentum": 0.0022,
+      "sma": 729.3098,
+      "above_sma": true,
+      "vol": 0.1479
+    },
+    "TLT": {
+      "close": 79.38,
+      "momentum": -0.0204,
+      "sma": 82.7144,
+      "above_sma": false,
+      "vol": 0.1072
+    },
+    "XLE": {
+      "close": 64.96,
+      "momentum": 0.0757,
+      "sma": 58.9404,
+      "above_sma": true,
+      "vol": 0.2417
+    },
+    "XLF": {
+      "close": 58.68,
+      "momentum": 0.0896,
+      "sma": 53.6648,
+      "above_sma": true,
+      "vol": 0.1627
+    },
+    "XLK": {
+      "close": 170.28,
+      "momentum": -0.068,
+      "sma": 170.5404,
+      "above_sma": false,
+      "vol": 0.3115
+    },
+    "XLV": {
+      "close": 188.85,
+      "momentum": 0.2236,
+      "sma": 159.3002,
+      "above_sma": true,
+      "vol": 0.173
+    }
+  },
+  "rationale": {
+    "BTC/USD": "out: below moving average",
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: below moving average",
+    "QQQ": "out: below moving average",
+    "TLT": "out: below moving average",
+    "XLK": "out: below moving average",
+    "XLV": "in: momentum rank 1, weight 25.3%",
+    "XLF": "in: momentum rank 2, weight 26.9%",
+    "XLE": "in: momentum rank 3, weight 18.1%",
+    "SPY": "in: momentum rank 4, weight 29.6%",
+    "EFA": "out: momentum rank 5 > top_n 4"
+  },
+  "raw_targets": {
+    "XLV": 0.2532134437194653,
+    "XLF": 0.26935533752596563,
+    "XLE": 0.18126068805137413,
+    "SPY": 0.29617053070319493
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "XLF": 0.25,
+    "XLE": 0.18126068805137413,
+    "SPY": 0.25
+  },
+  "risk_flags": [
+    "capped XLV from 25.3% to 25%",
+    "capped XLF from 26.9% to 25%",
+    "capped SPY from 29.6% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "XLE",
+      "side": "sell",
+      "notional": 6929.2,
+      "close_all": false,
+      "decision_price": 64.96,
+      "reason": "rebalance to 18.1%",
+      "strategy_version": "v1",
+      "order_id": "88852044-a71a-46cf-a167-4bb6ac266377",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "SPY",
+      "side": "buy",
+      "notional": 24988.71,
+      "close_all": false,
+      "decision_price": 754.37,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "ee1e8785-712e-4b8c-90a0-798d9eac0538",
+      "status": "accepted",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "92cd5405-843d-4237-b23e-f0e1600a38e8",
+      "symbol": "XLF",
+      "side": "buy",
+      "filled_qty": 2.948122866,
+      "filled_avg_price": 58.6,
+      "filled_at": "2026-11-13T14:30:31.213527+00:00",
+      "status": "filled",
+      "decision_price": 58.21,
+      "slippage_bps": 67.0
+    },
+    {
+      "order_id": "92441e2b-5e3e-4136-b720-36c5eb700090",
+      "symbol": "XLV",
+      "side": "buy",
+      "filled_qty": 8.222263509,
+      "filled_avg_price": 188.508919,
+      "filled_at": "2026-11-13T14:33:17.548853+00:00",
+      "status": "filled",
+      "decision_price": 187.83,
+      "slippage_bps": 36.1
+    },
+    {
+      "order_id": "776e15b7-600b-4e49-9a0c-cf0d154e4fb0",
+      "symbol": "XLE",
+      "side": "buy",
+      "filled_qty": 91.647113306,
+      "filled_avg_price": 64.859217,
+      "filled_at": "2026-11-13T14:34:37.972007+00:00",
+      "status": "filled",
+      "decision_price": 64.33,
+      "slippage_bps": 82.3
+    },
+    {
+      "order_id": "945a8f26-4952-4249-a44d-bca43e6f7cdf",
+      "symbol": "SPY",
+      "side": "sell",
+      "filled_qty": 32.918850525,
+      "filled_avg_price": 759.67,
+      "filled_at": "2026-11-13T14:31:37.018134+00:00",
+      "status": "filled",
+      "decision_price": 757.12,
+      "slippage_bps": -33.7
+    }
+  ],
+  "errors": {}
+}
