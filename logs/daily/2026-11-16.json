@@ -1,0 +1,537 @@
+{
+  "date": "2026-11-16",
+  "run_time_utc": "2026-11-16T21:31:01.218732+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "7768cf4c1694d305554fd03590300ad69309d368",
+  "stock_session": true,
+  "account": {
+    "equity": 99021.29,
+    "cash": 6861.84,
+    "last_equity": 100016.3709648875,
+    "buying_power": 285493.83
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "SPY",
+      "qty": 33.376564399,
+      "market_value": 24709.671922,
+      "avg_entry_price": 748.69,
+      "current_price": 740.33,
+      "unrealized_pl": -279.028078,
+      "unrealized_plpc": -0.01117
+    },
+    {
+      "symbol": "XLE",
+      "qty": 278.130969297,
+      "market_value": 17705.817505,
+      "avg_entry_price": 64.44585,
+      "current_price": 63.66,
+      "unrealized_pl": -218.569223,
+      "unrealized_plpc": -0.01219
+    },
+    {
+      "symbol": "XLF",
+      "qty": 426.621063976,
+      "market_value": 24850.676977,
+      "avg_entry_price": 57.563661,
+      "current_price": 58.25,
+      "unrealized_pl": 292.806675,
+      "unrealized_plpc": 0.01192
+    },
+    {
+      "symbol": "XLV",
+      "qty": 132.453373385,
+      "market_value": 24893.286994,
+      "avg_entry_price": 185.337042,
+      "current_price": 187.94,
+      "unrealized_pl": 344.770568,
+      "unrealized_plpc": 0.01404
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 19.3,
+      "us10y": 5.15,
+      "curve_2s10s": 0.27
+    },
+    "crypto_fear_greed": 10,
+    "news": {
+      "SPY": {
+        "count": 32,
+        "sentiment": 0.052,
+        "headlines": [
+          {
+            "headline": "BZ Analysis: The 3x Leveraged Semiconductor ETF SOXL Recorded Its Largest Weekly Outflow Ever, At $4.2B",
+            "source": "benzinga",
+            "created_at": "2026-11-16T19:36:25Z",
+            "sentiment": 0.281
+          },
+          {
+            "headline": "Goldman Sachs Research Expects Steady Global Economic Growth In 2027 Amid Lower Energy Prices And Ongoing Investment In AI",
+            "source": "benzinga",
+            "created_at": "2026-11-16T19:35:20Z",
+            "sentiment": 0.361
+          },
+          {
+            "headline": "BZ Analysis: Global Equity Funds Attracted +$98B In Inflows In The Week Ending November 11th, Their 2nd-largest Weekly Inflow On Record; The 4-Week Moving Average Of Inflows Is Up To ~$75B , Its Largest Reading On Record",
+            "source": "benzinga",
+            "created_at": "2026-11-16T19:34:28Z",
+            "sentiment": 0.604
+          },
+          {
+            "headline": "BZ Analysis: The NASDAQ 100 Has Recorded An Average Daily Swing Of 2.4% So Far In November, Putting It On Track For Its Most Volatile Month Since April 2025",
+            "source": "benzinga",
+            "created_at": "2026-11-16T19:32:57Z",
+            "sentiment": 0.281
+          },
+          {
+            "headline": "EXCLUSIVE: Ryan Detrick Isn\u2019t Worried About Midterm Election Outcome \u2013 \u2018Focus on the Fundamentals\u2019",
+            "source": "benzinga",
+            "created_at": "2026-11-16T19:32:15Z",
+            "sentiment": -0.645
+          }
+        ]
+      },
+      "QQQ": {
+        "count": 6,
+        "sentiment": 0.275,
+        "headlines": [
+          {
+            "headline": "Huang Reportedly Weighs Comeback As Bessent Seeks Nvidia Shake-Up; Anthropic's Upcoming IPO; Trump To Meet Putin And Xi",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:58:02Z",
+            "sentiment": 0.318
+          },
+          {
+            "headline": "Defensives Lead Sectors Monday As Growth Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:00:35Z",
+            "sentiment": 0.421
+          },
+          {
+            "headline": "Reported Earlier, U.S. Department Of Commerce's Bureau of Industry and Security Interim Final Rule To Address Remote Access To Advanced Super Intelligence Chips And Servers",
+            "source": "benzinga",
+            "created_at": "2026-11-16T15:26:35Z",
+            "sentiment": 0.886
+          },
+          {
+            "headline": "Biotech ETFs Brace for FDA Showdown: Two Drug Decisions Could Test Investor Sentiment",
+            "source": "benzinga",
+            "created_at": "2026-11-16T14:23:47Z",
+            "sentiment": 0.026
+          },
+          {
+            "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Trade Fall as Scott Bessent Presses Nvidia Over China Chips \u2014 BIDU, RKLB, MSTR in Focus (UPDATED)",
+            "source": "benzinga",
+            "created_at": "2026-11-16T13:25:57Z",
+            "sentiment": 0.0
+          }
+        ]
+      },
+      "IWM": {
+        "count": 1,
+        "sentiment": 0.421,
+        "headlines": [
+          {
+            "headline": "Defensives Lead Sectors Monday As Growth Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:00:35Z",
+            "sentiment": 0.421
+          }
+        ]
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "GLD": {
+        "count": 1,
+        "sentiment": -0.715,
+        "headlines": [
+          {
+            "headline": "Goldman Sachs Says Wait With Gold Until 2027; China Isn't Listening",
+            "source": "benzinga",
+            "created_at": "2026-11-16T10:50:41Z",
+            "sentiment": -0.715
+          }
+        ]
+      },
+      "XLK": {
+        "count": 3,
+        "sentiment": -0.233,
+        "headlines": [
+          {
+            "headline": "Semiconductor Sell-Off Slams TSMC Stock: What Investors Should Know",
+            "source": "benzinga",
+            "created_at": "2026-11-16T17:58:42Z",
+            "sentiment": -0.296
+          },
+          {
+            "headline": "QUICK SPARK: Dell Stock Is on Course for Its Worst Month Ever \u2014 Again",
+            "source": "benzinga",
+            "created_at": "2026-11-16T17:37:23Z",
+            "sentiment": -0.826
+          },
+          {
+            "headline": "Defensives Lead Sectors Monday As Growth Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:00:35Z",
+            "sentiment": 0.421
+          }
+        ]
+      },
+      "XLE": {
+        "count": 1,
+        "sentiment": 0.421,
+        "headlines": [
+          {
+            "headline": "Defensives Lead Sectors Monday As Growth Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:00:35Z",
+            "sentiment": 0.421
+          }
+        ]
+      },
+      "XLF": {
+        "count": 2,
+        "sentiment": 0.482,
+        "headlines": [
+          {
+            "headline": "Forget Nvidia\u2014Wall Street Sees S&P 500 at 8,900, Putting These ETFs in Play",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:49:13Z",
+            "sentiment": 0.542
+          },
+          {
+            "headline": "Defensives Lead Sectors Monday As Growth Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:00:35Z",
+            "sentiment": 0.421
+          }
+        ]
+      },
+      "XLV": {
+        "count": 3,
+        "sentiment": 0.33,
+        "headlines": [
+          {
+            "headline": "Forget Nvidia\u2014Wall Street Sees S&P 500 at 8,900, Putting These ETFs in Play",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:49:13Z",
+            "sentiment": 0.542
+          },
+          {
+            "headline": "Defensives Lead Sectors Monday As Growth Trails",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:00:35Z",
+            "sentiment": 0.421
+          },
+          {
+            "headline": "Biotech ETFs Brace for FDA Showdown: Two Drug Decisions Could Test Investor Sentiment",
+            "source": "benzinga",
+            "created_at": "2026-11-16T14:23:47Z",
+            "sentiment": 0.026
+          }
+        ]
+      },
+      "BTC/USD": {
+        "count": 17,
+        "sentiment": -0.143,
+        "headlines": [
+          {
+            "headline": "Coinbase Stock Slides as Bitcoin Hits August Lows",
+            "source": "benzinga",
+            "created_at": "2026-11-16T20:06:13Z",
+            "sentiment": -0.743
+          },
+          {
+            "headline": "Former UK PM Boris Johnson Says Bitcoin Is a 'Mystery' but Blockchain Tech Is 'Fantastic'",
+            "source": "benzinga",
+            "created_at": "2026-11-16T19:45:08Z",
+            "sentiment": 0.863
+          },
+          {
+            "headline": "Bitcoin Faces Crucial Weeks Before a \u2018Very Good 2027,\u2019 Bitwise Exec Says",
+            "source": "benzinga",
+            "created_at": "2026-11-16T18:45:08Z",
+            "sentiment": 0.7
+          },
+          {
+            "headline": "Why Is Cipher Digital Stock Falling on Monday?",
+            "source": "benzinga",
+            "created_at": "2026-11-16T18:06:49Z",
+            "sentiment": -0.557
+          },
+          {
+            "headline": "Bitwise: Look Out Ethereum, Avalanche May Eat Your Tokenization Lunch",
+            "source": "benzinga",
+            "created_at": "2026-11-16T17:45:07Z",
+            "sentiment": 0.052
+          }
+        ]
+      },
+      "ETH/USD": {
+        "count": 8,
+        "sentiment": -0.143,
+        "headlines": [
+          {
+            "headline": "Bitwise: Look Out Ethereum, Avalanche May Eat Your Tokenization Lunch",
+            "source": "benzinga",
+            "created_at": "2026-11-16T17:45:07Z",
+            "sentiment": 0.052
+          },
+          {
+            "headline": "Bitcoin, Ethereum, XRP Face Pivotal Week After $1.49B ETF Exodus",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:59:06Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "BitMine Hits 6M ETH Holdings but BMNR Drops 5%: What's Going On?",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:15:08Z",
+            "sentiment": 0.0
+          },
+          {
+            "headline": "Raoul Pal: Bitcoin Can Hit $1M by 2036, ETH and SOL Are the Altcoin Plays",
+            "source": "benzinga",
+            "created_at": "2026-11-16T16:00:15Z",
+            "sentiment": -0.25
+          },
+          {
+            "headline": "BitMine Stock Sinks: What's Going On?",
+            "source": "benzinga",
+            "created_at": "2026-11-16T15:31:33Z",
+            "sentiment": 0.542
+          }
+        ]
+      }
+    },
+    "last_close": {
+      "EFA": 102.64,
+      "GLD": 352.93,
+      "IWM": 272.94,
+      "QQQ": 661.75,
+      "SPY": 739.95,
+      "TLT": 79.38,
+      "XLE": 63.69,
+      "XLF": 58.18,
+      "XLK": 164.76,
+      "XLV": 187.88,
+      "BTC/USD": 65320.5155,
+      "ETH/USD": 1834.64
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 65320.5155,
+      "momentum": -0.0681,
+      "sma": 77736.8767,
+      "above_sma": false,
+      "vol": 0.4155
+    },
+    "EFA": {
+      "close": 102.64,
+      "momentum": -0.0138,
+      "sma": 102.7154,
+      "above_sma": false,
+      "vol": 0.1481
+    },
+    "ETH/USD": {
+      "close": 1834.64,
+      "momentum": -0.0857,
+      "sma": 2375.3114,
+      "above_sma": false,
+      "vol": 0.5211
+    },
+    "GLD": {
+      "close": 352.93,
+      "momentum": -0.1355,
+      "sma": 407.9566,
+      "above_sma": false,
+      "vol": 0.2378
+    },
+    "IWM": {
+      "close": 272.94,
+      "momentum": -0.0473,
+      "sma": 278.5522,
+      "above_sma": false,
+      "vol": 0.1803
+    },
+    "QQQ": {
+      "close": 661.75,
+      "momentum": -0.0686,
+      "sma": 681.4102,
+      "above_sma": false,
+      "vol": 0.2458
+    },
+    "SPY": {
+      "close": 739.95,
+      "momentum": -0.0133,
+      "sma": 729.5767,
+      "above_sma": true,
+      "vol": 0.1527
+    },
+    "TLT": {
+      "close": 79.38,
+      "momentum": -0.0217,
+      "sma": 82.6921,
+      "above_sma": false,
+      "vol": 0.1071
+    },
+    "XLE": {
+      "close": 63.69,
+      "momentum": 0.0357,
+      "sma": 59.0086,
+      "above_sma": true,
+      "vol": 0.2451
+    },
+    "XLF": {
+      "close": 58.18,
+      "momentum": 0.0709,
+      "sma": 53.6917,
+      "above_sma": true,
+      "vol": 0.1627
+    },
+    "XLK": {
+      "close": 164.76,
+      "momentum": -0.0821,
+      "sma": 170.6475,
+      "above_sma": false,
+      "vol": 0.3181
+    },
+    "XLV": {
+      "close": 187.88,
+      "momentum": 0.2056,
+      "sma": 159.4754,
+      "above_sma": true,
+      "vol": 0.172
+    }
+  },
+  "rationale": {
+    "BTC/USD": "out: below moving average",
+    "EFA": "out: below moving average",
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: below moving average",
+    "QQQ": "out: below moving average",
+    "SPY": "out: negative momentum",
+    "TLT": "out: below moving average",
+    "XLK": "out: below moving average",
+    "XLV": "in: momentum rank 1, weight 36.2%",
+    "XLF": "in: momentum rank 2, weight 38.3%",
+    "XLE": "in: momentum rank 3, weight 25.4%"
+  },
+  "raw_targets": {
+    "XLV": 0.36249267353384695,
+    "XLF": 0.38320201119563374,
+    "XLE": 0.2543053152705192
+  },
+  "final_targets": {
+    "XLV": 0.25,
+    "XLF": 0.25,
+    "XLE": 0.25
+  },
+  "risk_flags": [
+    "capped XLV from 36.2% to 25%",
+    "capped XLF from 38.3% to 25%",
+    "capped XLE from 25.4% to 25%"
+  ],
+  "orders": [
+    {
+      "symbol": "SPY",
+      "side": "sell",
+      "notional": 24709.671922,
+      "close_all": true,
+      "decision_price": 739.95,
+      "reason": "exit: no longer a target",
+      "strategy_version": "v1",
+      "order_id": "c0813c6c-6822-46fd-a1c2-97f888960299",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLV",
+      "side": "sell",
+      "notional": 137.96,
+      "close_all": false,
+      "decision_price": 187.88,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "8e07467d-fafa-434c-9d1e-ec77cfc911b9",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLF",
+      "side": "sell",
+      "notional": 95.35,
+      "close_all": false,
+      "decision_price": 58.18,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "30d96b14-2985-43b9-8e87-574e11d18bee",
+      "status": "accepted",
+      "error": null
+    },
+    {
+      "symbol": "XLE",
+      "side": "buy",
+      "notional": 7049.5,
+      "close_all": false,
+      "decision_price": 63.69,
+      "reason": "rebalance to 25.0%",
+      "strategy_version": "v1",
+      "order_id": "f896e497-f6a9-40a2-8e68-494f9689a7dd",
+      "status": "accepted",
+      "error": null
+    }
+  ],
+  "fills_since_last_run": [
+    {
+      "order_id": "88852044-a71a-46cf-a167-4bb6ac266377",
+      "symbol": "XLE",
+      "side": "sell",
+      "filled_qty": 107.445960614,
+      "filled_avg_price": 64.49,
+      "filled_at": "2026-11-16T14:30:05.863811+00:00",
+      "status": "filled",
+      "decision_price": 64.96,
+      "slippage_bps": 72.4
+    },
+    {
+      "order_id": "ee1e8785-712e-4b8c-90a0-798d9eac0538",
+      "symbol": "SPY",
+      "side": "buy",
+      "filled_qty": 33.376564399,
+      "filled_avg_price": 748.69,
+      "filled_at": "2026-11-16T14:32:37.230379+00:00",
+      "status": "filled",
+      "decision_price": 754.37,
+      "slippage_bps": -75.3
+    }
+  ],
+  "errors": {}
+}
