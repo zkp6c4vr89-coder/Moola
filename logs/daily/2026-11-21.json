@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-21",
+  "run_time_utc": "2026-11-21T21:30:54.873857+00:00",
+  "dry_run": false,
+  "strategy_version": "v1",
+  "strategy_params": {
+    "stock_momentum_windows": [
+      63,
+      126
+    ],
+    "crypto_momentum_windows": [
+      90,
+      180
+    ],
+    "stock_sma": 200,
+    "crypto_sma": 100,
+    "vol_window": 60,
+    "top_n": 4
+  },
+  "git_sha": "431cd5cc1f00a3e04872bbb4b2d9082206b8e87d",
+  "stock_session": false,
+  "account": {
+    "equity": 94686.09,
+    "cash": 23808.95,
+    "last_equity": 94686.0887032487,
+    "buying_power": 293691.79
+  },
+  "peak_equity": 100925.72,
+  "positions": [
+    {
+      "symbol": "XLE",
+      "qty": 390.88455452,
+      "market_value": 23652.424394,
+      "avg_entry_price": 63.581825,
+      "current_price": 60.51,
+      "unrealized_pl": -1200.728947,
+      "unrealized_plpc": -0.04831
+    },
+    {
+      "symbol": "XLF",
+      "qty": 428.83018907,
+      "market_value": 23401.263418,
+      "avg_entry_price": 57.548619,
+      "current_price": 54.57,
+      "unrealized_pl": -1277.321748,
+      "unrealized_plpc": -0.05176
+    },
+    {
+      "symbol": "XLV",
+      "qty": 134.41351214,
+      "market_value": 23823.450892,
+      "avg_entry_price": 185.234546,
+      "current_price": 177.24,
+      "unrealized_pl": -1074.575006,
+      "unrealized_plpc": -0.04316
+    }
+  ],
+  "data": {
+    "macro": {
+      "vix": 28.44,
+      "us10y": 5.04,
+      "curve_2s10s": 0.29
+    },
+    "crypto_fear_greed": 12,
+    "news": {
+      "SPY": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "QQQ": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "IWM": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "EFA": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "TLT": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "GLD": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLK": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLE": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLF": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "XLV": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "BTC/USD": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      },
+      "ETH/USD": {
+        "count": 0,
+        "sentiment": null,
+        "headlines": []
+      }
+    },
+    "last_close": {
+      "EFA": 96.14,
+      "GLD": 322.87,
+      "IWM": 256.61,
+      "QQQ": 608.45,
+      "SPY": 689.81,
+      "TLT": 81.45,
+      "XLE": 60.51,
+      "XLF": 54.57,
+      "XLK": 149.01,
+      "XLV": 177.24,
+      "BTC/USD": 58818.465,
+      "ETH/USD": 1619.503
+    }
+  },
+  "indicators": {
+    "BTC/USD": {
+      "close": 58818.465,
+      "momentum": -0.2363,
+      "sma": 77664.8652,
+      "above_sma": false,
+      "vol": 0.3708
+    },
+    "EFA": {
+      "close": 96.14,
+      "momentum": -0.0854,
+      "sma": 102.7047,
+      "above_sma": false,
+      "vol": 0.1612
+    },
+    "ETH/USD": {
+      "close": 1619.503,
+      "momentum": -0.2799,
+      "sma": 2368.6702,
+      "above_sma": false,
+      "vol": 0.5028
+    },
+    "GLD": {
+      "close": 322.87,
+      "momentum": -0.2315,
+      "sma": 405.8288,
+      "above_sma": false,
+      "vol": 0.2531
+    },
+    "IWM": {
+      "close": 256.61,
+      "momentum": -0.116,
+      "sma": 278.6808,
+      "above_sma": false,
+      "vol": 0.1942
+    },
+    "QQQ": {
+      "close": 608.45,
+      "momentum": -0.1439,
+      "sma": 682.0742,
+      "above_sma": false,
+      "vol": 0.2723
+    },
+    "SPY": {
+      "close": 689.81,
+      "momentum": -0.0822,
+      "sma": 730.2817,
+      "above_sma": false,
+      "vol": 0.1738
+    },
+    "TLT": {
+      "close": 81.45,
+      "momentum": -0.0083,
+      "sma": 82.6225,
+      "above_sma": false,
+      "vol": 0.1091
+    },
+    "XLE": {
+      "close": 60.51,
+      "momentum": -0.0024,
+      "sma": 59.2251,
+      "above_sma": true,
+      "vol": 0.252
+    },
+    "XLF": {
+      "close": 54.57,
+      "momentum": -0.0007,
+      "sma": 53.7488,
+      "above_sma": true,
+      "vol": 0.1728
+    },
+    "XLK": {
+      "close": 149.01,
+      "momentum": -0.1717,
+      "sma": 171.036,
+      "above_sma": false,
+      "vol": 0.3436
+    },
+    "XLV": {
+      "close": 177.24,
+      "momentum": 0.1053,
+      "sma": 160.0156,
+      "above_sma": true,
+      "vol": 0.1833
+    }
+  },
+  "rationale": {
+    "BTC/USD": "out: below moving average",
+    "EFA": "out: below moving average",
+    "ETH/USD": "out: below moving average",
+    "GLD": "out: below moving average",
+    "IWM": "out: below moving average",
+    "QQQ": "out: below moving average",
+    "SPY": "out: below moving average",
+    "TLT": "out: below moving average",
+    "XLE": "out: negative momentum",
+    "XLF": "out: negative momentum",
+    "XLK": "out: below moving average",
+    "XLV": "in: momentum rank 1, weight 100.0%"
+  },
+  "raw_targets": {
+    "XLV": 1.0
+  },
+  "final_targets": {
+    "XLV": 0.25
+  },
+  "risk_flags": [
+    "capped XLV from 100.0% to 25%"
+  ],
+  "orders": [],
+  "fills_since_last_run": [],
+  "errors": {}
+}
