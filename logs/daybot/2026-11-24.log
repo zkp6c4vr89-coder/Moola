@@ -1,0 +1,4 @@
+2026-11-24 09:35:52,604 ET INFO waiting until 09:45:00
+2026-11-24 09:45:00,000 ET INFO session morning running until 12:45:00 (base unit $10, dry run True)
+2026-11-24 11:20:10,255 ET INFO [dry run] would buy $2.50 NVDA (dev -1.37%, rsi 30, r/r 1.0)
+2026-11-24 11:21:10,226 ET INFO [dry run] would buy $2.50 NVDA (dev -1.37%, rsi 30, r/r 1.0)
