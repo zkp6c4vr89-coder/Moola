@@ -1,0 +1,12 @@
+2026-11-25 09:35:53,071 ET INFO waiting until 09:45:00
+2026-11-25 09:45:00,000 ET INFO session morning running until 12:45:00 (base unit $10, dry run True)
+2026-11-25 10:35:10,670 ET INFO [dry run] would buy $2.50 AAPL (dev -0.79%, rsi 30, r/r 1.6)
+2026-11-25 10:36:10,973 ET INFO [dry run] would buy $2.50 AAPL (dev -0.79%, rsi 30, r/r 1.6)
+2026-11-25 10:50:10,691 ET INFO [dry run] would buy $2.50 AMZN (dev -0.99%, rsi 25, r/r 1.2)
+2026-11-25 10:51:10,686 ET INFO [dry run] would buy $2.50 AMZN (dev -0.99%, rsi 25, r/r 1.2)
+2026-11-25 10:55:10,662 ET INFO [dry run] would buy $2.50 AAPL (dev -0.84%, rsi 28, r/r 1.8)
+2026-11-25 10:56:10,675 ET INFO [dry run] would buy $2.50 AAPL (dev -0.84%, rsi 28, r/r 1.8)
+2026-11-25 11:00:10,922 ET INFO [dry run] would buy $2.50 AMZN (dev -0.95%, rsi 28, r/r 1.2)
+2026-11-25 11:01:10,657 ET INFO [dry run] would buy $2.50 AMZN (dev -0.95%, rsi 28, r/r 1.2)
+2026-11-25 11:05:10,854 ET INFO [dry run] would buy $2.50 AMZN (dev -0.84%, rsi 29, r/r 1.0)
+2026-11-25 11:06:10,814 ET INFO [dry run] would buy $2.50 AMZN (dev -0.84%, rsi 29, r/r 1.0)
